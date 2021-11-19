@@ -54,3 +54,43 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* Container holding hero image and text */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    position: relative;
+  }
+
+#hero-cover-text {
+    font-size: 280%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+    width: 820px;
+    height: 80px;
+
+    background-color: rgba(245, 100, 100, 0.6);
+
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    transform: translate(-50%, 0);
+  }
+
+#hero-cover-text h2{
+    color: #fff;
+    text-shadow: 1px 1px 4px #000000;
+    transform: translate(0, -10%);
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/home-hero-image.jpg") no-repeat center center;
+}
