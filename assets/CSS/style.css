@@ -23,6 +23,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* Navigation links */
@@ -72,7 +73,7 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     background-color: rgba(241, 108, 107, 0.6);
-        
+
     width: 820px;
     height: 80px;
 
@@ -114,4 +115,22 @@ h1, h2 {
 .tour-button-cta:hover{
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+/* About Cappadocia region */
+
+#about-cappadocia {
+    height: 150px;
+}
+
+#discover-cappadocia {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#about-discovery {
+    font-size: 110%;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 20px;
 }
