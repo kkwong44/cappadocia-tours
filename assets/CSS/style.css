@@ -13,7 +13,7 @@ body{
 
 /* Headings and Logo */
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -128,7 +128,7 @@ h1, h2 {
     margin: 20px 0;
 }
 
-#about-discovery {
+#about-discovery, #about-tours {
     font-size: 110%;
     width: 80%;
     margin: 0 auto;
@@ -146,20 +146,27 @@ h1, h2 {
     margin: 20px 0;
 }
 
-#left-tour {
-    width: 33%;
-    float: left;
-    background-color: blue;
+.tours-flex-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
 
-#right-tour {
-    width: 33%;
-    float: right;
-    background-color: silver;
+.tour-flex-left {
+    flex: 33%;
+    margin: 0 0 0 10%;
+    border: 1px solid black;
 }
 
-#center-tour {
-    width: 33%;
-    margin: 0 auto;
-    background-color: green;
+.tour-flex-center {
+    flex: 33%;
+    margin: 0 2%;
+    border: 1px solid black;
+}
+
+.tour-flex-right {
+    flex: 33%;
+    margin: 0 10% 0 0;
+    border: 1px solid black;
 }
