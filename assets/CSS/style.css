@@ -55,7 +55,7 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Container holding hero image and text */
+/* Container holding hero image, text and call to action button */
 
 #hero-outer {
     height: 600px;
@@ -71,15 +71,14 @@ h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    
+    background-color: rgba(241, 108, 107, 0.6);
+        
     width: 820px;
     height: 80px;
 
-    background-color: rgba(245, 100, 100, 0.6);
-
     position: absolute;
     left: 50%;
-    bottom: 40%;
+    bottom: 45%;
     transform: translate(-50%, 0);
   }
 
@@ -93,4 +92,26 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url("../images/home-hero-image.jpg") no-repeat center center;
+}
+
+.tour-button-cta {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+
+    font-size: 30%;
+    text-decoration: none;
+    text-align: center;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.tour-button-cta:hover{
+    background-color: #fafafa;
+    color: #f16c6b;
 }
