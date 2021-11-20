@@ -189,3 +189,21 @@ h1, h2, h3 {
 .tour-desc li {
     margin: 0 10%;
 }
+
+.reservation-button-cta {
+    position: relative;
+    top: 85%;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+
+    font-size: 120%;
+    text-decoration: none;
+    text-align: center;
+    background-color: #32CD32;
+    color: #fafafa;
+}
+
+.reservation-button-cta:hover {
+    background-color: #006400;
+    color: #fafafa;
+}
