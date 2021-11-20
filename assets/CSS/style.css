@@ -134,3 +134,32 @@ h1, h2 {
     margin: 0 auto;
     line-height: 20px;
 }
+
+/* Guided Tours */
+
+#tours {
+    height: 600px;
+}
+
+#guided-tours {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#left-tour {
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-tour {
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#center-tour {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
+}
