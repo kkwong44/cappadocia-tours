@@ -207,3 +207,57 @@ h1, h2, h3 {
     background-color: #006400;
     color: #fafafa;
 }
+
+/* Footer */
+
+#footer {
+    height: 150px;
+    background-color: #3a3a3a;
+}
+
+#footer strong {
+    font-size: 120%;
+}
+
+.footer-contact {
+    float: left;
+    margin: 30px;
+    color: #fafafa;
+}
+
+.footer-contact a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.footer-contact a:hover {
+    text-decoration: none;
+    color: black;
+}
+.social-networks {
+    margin: 30px;
+    text-align: center;
+    float: right;
+    color: #fafafa;
+}
+
+.social-networks li {
+    display: inline;
+}
+.social-networks i {
+    font-size: 160%;
+    margin: 30px;
+    color: #fafafa;
+}
+
+.social-networks i:hover {
+    font-size: 160%;
+    color: black;
+}
+
+.copyright {
+    position: relative;
+    top: 60%;
+    text-align: center;
+    color: #fafafa;
+}
