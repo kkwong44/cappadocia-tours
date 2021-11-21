@@ -159,10 +159,18 @@ h1, h2, h3 {
 .tour-flex-element{
     flex-basis: 30%;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tours-flex-container ul {
+    flex-grow: 1;
 }
 
 #tour-image{
-    width: 80%; 
+    width: 80%;
+    margin-left: 10%; 
 }
 
 #tours h3 {
@@ -177,7 +185,7 @@ h1, h2, h3 {
 }
 
 .tour-desc li {
-    margin: 0 10%;
+    margin: 0 8%;
 }
 
 /* Footer */
