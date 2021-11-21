@@ -135,6 +135,17 @@ h1, h2, h3 {
     line-height: 20px;
 }
 
+/* Guided Tours */
+
+#tours {
+    height: 1050px;
+}
+
+#guided-tours {
+    text-align: center;
+    margin: 20px 0;
+}
+
 /* Footer */
 
 #footer {
