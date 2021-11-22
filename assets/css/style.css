@@ -120,7 +120,7 @@ h1, h2, h3 {
 /* About Cappadocia region */
 
 #about-cappadocia {
-    height: 150px;
+    height: 10%;
 }
 
 #discover-cappadocia {
@@ -131,14 +131,14 @@ h1, h2, h3 {
 #about-discovery, #about-tours {
     font-size: 110%;
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 5%;
     line-height: 20px;
 }
 
 /* Guided Tours */
 
 #tours {
-    height: 1050px;
+    margin-bottom: 5%;
 }
 
 #guided-tours {
@@ -147,13 +147,8 @@ h1, h2, h3 {
 }
 
 .tours-flex-container {
-    height: 80%;
-    width: 80%;
-    margin-top: 20px;
-    margin-left: 10%;
-    display: flex;
+    margin: 0 10%;
     text-align: center;
-    justify-content: space-between;
 }
 
 .tour-flex-element{
@@ -162,6 +157,7 @@ h1, h2, h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .tours-flex-container ul {
@@ -185,7 +181,7 @@ h1, h2, h3 {
 }
 
 .tour-desc li {
-    margin: 0 8%;
+    margin: 0 5%;
 }
 
 .reservation-button-cta {
@@ -258,4 +254,14 @@ h1, h2, h3 {
     top: 60%;
     text-align: center;
     color: #fafafa;
+}
+
+/* Media query */
+
+@media (min-width: 1200px) {
+    .tours-flex-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
 }
