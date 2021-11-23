@@ -302,6 +302,8 @@ h1, h2, h3 {
     border: 1px solid #3a3a3a;
 }
 
+
+
 /* Media query */
 
 @media (min-width: 900px) {
@@ -335,4 +337,14 @@ h1, h2, h3 {
     .copyright {
         margin: 0;
     }
+}
+
+@media (min-width: 600px) {
+    .zoom-img {
+        transition: transform .2s;
+    }
+    
+    .zoom-img:hover {
+        transform: scale(1.5);
+      }
 }
