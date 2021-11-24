@@ -287,7 +287,7 @@ h1, h2, h3 {
 
 #gallery {
     width: 85%;
-    margin: 0 auto;
+    margin: 0 auto 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -302,7 +302,25 @@ h1, h2, h3 {
     border: 1px solid #3a3a3a;
 }
 
+/* Reservation Page */
 
+.form-section {
+    clear: left;
+    background: url("#") no-repeat #000000;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.reservation-form {
+    margin: 5% 10% 0 0;
+    color:#fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
 
 /* Media query */
 

@@ -33,8 +33,46 @@
         </nav>
     </header>
 
-    <section>
-        Reservation Page
+    <section class="form-section">
+        <form action="https://cappadociatours.co.uk/" method="POST" class="reservation-form">
+            <h2>Let's book your reservation!</h2>
+            
+            <label for="fname">First Name</label>
+            <input type="text" name="first_name" required id="fname" class="text-input">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" name="last_name" required id="lname" class="text-input">
+        
+            <label for="telephone">Telephone</label>
+            <input type="tel" name="telephone" required id="telphone" class="text-input">                
+        
+            <label for="email">Email</label>
+            <input type="email" name="email_address" required id="email" class="text-input">
+        
+            <label for="red-tour">Red Tour</label>
+            <input type="radio" name="tour_preference" value="red" required  id="red-tour" class="radio">                
+            <label for="green-tour">Green Tour</label>
+            <input type="radio" name="tour_preference" value="green" id="green-tour" class="radio">                
+            <label for="ballon-tour">Hot Air Balloon Tour</label>
+            <input type="radio" name="tour_preference" value="balloon" id="balloon-tour" class="radio">                
+        
+            <label for="date">Date</label>
+            <input type="date" name="date" required id="date" class="text-input">                
+        
+            <label for="adult">Adult</label>
+            <input type="number" name="adult" required id="adult" class="text-input">
+        
+            <label for="child">Childern</label>
+            <input type="number" name="child" required id="child" class="text-input">
+            
+            <p>* Children must over 12 and accompanied by adult.</p>
+            
+            <textarea rows="4" cols="50" name="comment" form="form-section">
+                Enter text here...</textarea>
+
+            <input type="submit" value="Reserve" class="reserve-button">
+
+        </form>
     </section>
 
     <footer id="footer">
