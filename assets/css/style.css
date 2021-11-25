@@ -306,7 +306,7 @@ h1, h2, h3 {
 
 .form-section {
     clear: left;
-    background: url("#") no-repeat #000000;
+    background: url("../images/reservation-background.jpg") no-repeat #000000;
     background-size: cover;
     background-position: center;
     height: 900px;
