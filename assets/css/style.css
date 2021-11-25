@@ -359,8 +359,9 @@ h1, h2, h3 {
     border-color: #cacaca;
 }
 
-.date-input {
+.msg-input {
     height: 75px;
+    margin-left: 0;
 }
 
 .radio {
