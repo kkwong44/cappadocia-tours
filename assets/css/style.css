@@ -440,6 +440,10 @@ h1, h2, h3 {
 }
 
 @media (max-width: 600px) {
+    #discover-cappadocia, #guided-tours {
+        font-size:large;
+    }
+    
     #hero-outer, #hero-image {
         height: 200px;
     }
