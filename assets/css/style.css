@@ -72,6 +72,7 @@ h1, h2, h3 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
+    text-align: center;
     background-color: rgba(241, 108, 107, 0.6);
 
     width: 820px;
@@ -414,12 +415,24 @@ h1, h2, h3 {
     #hero-outer, #hero-image {
         height: 300px;
     }
+
+    #hero-cover-text {
+        font-size: 180%;
+        width: 560px;
+        height: 60px;
+      }
 }
 
 @media (max-width: 600px) {
     #hero-outer, #hero-image {
         height: 200px;
     }
+
+    #hero-cover-text {
+        font-size: 100%;
+        width: 350px;
+        height: 30px;
+      }
 }
 
 @media (min-width: 900px) {
