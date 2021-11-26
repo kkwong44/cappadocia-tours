@@ -89,8 +89,15 @@
                  onfocus="this.value=''" id="text-area" class="text-input msg-input">Enter message here...</textarea>
             </div>
 
+            <span id="response-msg"></span>
             <input type="reset" value="Reset" class="reset-button">
-            <input type="submit" value="Confirm" class="reserve-button">
+            <input type="submit" value="Confirm" class="reserve-button" onclick="submit_form()">
+
+            <script>
+                function submit_form() {
+                    document.getElementById("response-msg").innerHTML = "Your reservation request has been received. We will contact you shortly.";
+                }
+            </script>
 
         </form>
     </section>

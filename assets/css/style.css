@@ -387,6 +387,13 @@ h1, h2, h3 {
     color: #32CD32;
 }
 
+#response-msg {
+    color: #32CD32;
+    font-size: 80%;
+    margin-bottom: 10px;
+    display: block;
+} 
+
 .reset-button {
     margin-right: 20px;
     border-radius: 4px;
