@@ -90,12 +90,16 @@
             </div>
 
             <span id="response-msg"></span>
-            <input type="reset" value="Reset" class="reset-button">
+            <input type="reset" value="Reset" class="reset-button" onclick="reset_form()">
             <input type="submit" value="Confirm" class="reserve-button" onclick="submit_form()">
 
             <script>
                 function submit_form() {
                     document.getElementById("response-msg").innerHTML = "Your reservation request has been received. We will contact you shortly.";
+                }
+                function reset_form() {
+                    document.getElementById("response-msg").innerHTML = "";
+                    document.getElementById("text-area").value = "Enter message here...";
                 }
             </script>
 
