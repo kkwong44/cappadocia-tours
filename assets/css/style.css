@@ -118,7 +118,7 @@ h1, h2, h3 {
     text-decoration: none;
     text-align: center;
     background-color: #f16c6b;
-    color: #fafafa;
+    color: #000000;
     display: block;
 
     position: absolute;
@@ -127,7 +127,7 @@ h1, h2, h3 {
 }
 
 .tour-button-cta:hover{
-    background-color: #fafafa;
+    background-color: #000000;
     color: #f16c6b;
 }
 
@@ -208,12 +208,12 @@ h1, h2, h3 {
     text-decoration: none;
     text-align: center;
     background-color: #32CD32;
-    color: #fafafa;
+    color: #000000;
 }
 
 .reservation-button-cta:hover {
     background-color: #006400;
-    color: #fafafa;
+    color: #000000;
 }
 
 /* Footer */
