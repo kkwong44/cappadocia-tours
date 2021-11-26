@@ -36,74 +36,74 @@
     <section class="form-section">
         <form action="https://cappadociatours.co.uk/" method="POST" id="form" class="reservation-form">
             <h2>Let's book your reservation!</h2>
+            <fieldset>
+                <div class="form-row">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="first_name" required id="fname" class="text-input">
+                </div>
 
-            <div class="form-row">
-                <label for="fname">First Name</label>
-                <input type="text" name="first_name" required id="fname" class="text-input">
-            </div>
+                <div class="form-row">
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="last_name" required id="lname" class="text-input">
+                </div>
 
-            <div class="form-row">
-                <label for="lname">Last Name</label>
-                <input type="text" name="last_name" required id="lname" class="text-input">
-            </div>
+                <div class="form-row">
+                    <label for="telephone">Telephone</label>
+                    <input type="tel" name="telephone" required id="telephone" class="text-input">
+                </div>
 
-            <div class="form-row">
-                <label for="telephone">Telephone</label>
-                <input type="tel" name="telephone" required id="telephone" class="text-input">
-            </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" name="email_address" required id="email" class="text-input">
+                </div>
 
-            <div class="form-row">
-                <label for="email">Email</label>
-                <input type="email" name="email_address" required id="email" class="text-input">
-            </div>
+                <div>
+                    <label for="red-tour">Red Tour</label>
+                    <input type="radio" name="tour_preference" value="red" required id="red-tour" class="radio" checked>
+                    <label for="green-tour">Green Tour</label>
+                    <input type="radio" name="tour_preference" value="green" id="green-tour" class="radio">
+                    <label for="balloon-tour">Hot Air Balloon Tour</label>
+                    <input type="radio" name="tour_preference" value="balloon" id="balloon-tour" class="radio">
+                </div>
 
-            <div>
-                <label for="red-tour">Red Tour</label>
-                <input type="radio" name="tour_preference" value="red" required id="red-tour" class="radio" checked>
-                <label for="green-tour">Green Tour</label>
-                <input type="radio" name="tour_preference" value="green" id="green-tour" class="radio">
-                <label for="balloon-tour">Hot Air Balloon Tour</label>
-                <input type="radio" name="tour_preference" value="balloon" id="balloon-tour" class="radio">
-            </div>
+                <div class="form-row">
+                    <label for="date">Date</label>
+                    <input type="date" name="date" required id="date" class="text-input">
+                </div>
 
-            <div class="form-row">
-                <label for="date">Date</label>
-                <input type="date" name="date" required id="date" class="text-input">
-            </div>
+                <div class="form-row">
+                    <label for="adult">Adult</label>
+                    <input type="number" name="adult" required id="adult" class="text-input" value="2">
+                </div>
 
-            <div class="form-row">
-                <label for="adult">Adult</label>
-                <input type="number" name="adult" required id="adult" class="text-input" value="2">
-            </div>
+                <div class="form-row">
+                    <label for="child">Childern</label>
+                    <input type="number" name="child" required id="child" class="text-input" value="0">
+                </div>
 
-            <div class="form-row">
-                <label for="child">Childern</label>
-                <input type="number" name="child" required id="child" class="text-input" value="0">
-            </div>
+                <p>* Children must over 12 and accompanied by adult.</p>
 
-            <p>* Children must over 12 and accompanied by adult.</p>
+                <label for="text-area">Message</label>
+                <div class="form-row">
+                    <textarea rows="4" cols="52" name="comment" form="form"
+                    onfocus="this.value=''" id="text-area" class="text-input msg-input">Enter message here...</textarea>
+                </div>
 
-            <label for="text-area">Message</label>
-            <div class="form-row">
-                <textarea rows="4" cols="52" name="comment" form="form"
-                 onfocus="this.value=''" id="text-area" class="text-input msg-input">Enter message here...</textarea>
-            </div>
-
-            <span id="response-msg"></span>
-            <input type="reset" value="Reset" class="reset-button" onclick="reset_form()">
-            <input type="submit" value="Confirm" class="reserve-button" onclick="submit_form()">
-
-            <script>
-                function submit_form() {
-                    document.getElementById("response-msg").innerHTML = "System error. Currently we are unable to process your request.";
-                }
-                function reset_form() {
-                    document.getElementById("response-msg").innerHTML = "";
-                    document.getElementById("text-area").value = "Enter message here...";
-                }
-            </script>
-
+                <span id="response-msg"></span>
+                <input type="reset" value="Reset" class="reset-button" onclick="reset_form()">
+                <input type="submit" value="Confirm" class="reserve-button" onclick="submit_form()">
+            </fieldset>
         </form>
+        
+        <script>
+            function submit_form() {
+                document.getElementById("response-msg").innerHTML = "System error. Currently we are unable to process your request.";
+            }
+            function reset_form() {
+                document.getElementById("response-msg").innerHTML = "";
+                document.getElementById("text-area").value = "Enter message here...";
+            }
+        </script>
     </section>
 
     <footer id="footer">
