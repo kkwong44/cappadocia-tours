@@ -57,14 +57,14 @@
                     <input type="email" name="email_address" required id="email" class="text-input">
                 </div>
 
-                <div>
+                <fieldset>
                     <label for="red-tour">Red Tour</label>
                     <input type="radio" name="tour_preference" value="red" required id="red-tour" class="radio" checked>
                     <label for="green-tour">Green Tour</label>
                     <input type="radio" name="tour_preference" value="green" id="green-tour" class="radio">
                     <label for="balloon-tour">Hot Air Balloon Tour</label>
                     <input type="radio" name="tour_preference" value="balloon" id="balloon-tour" class="radio">
-                </div>
+                </fieldset>
 
                 <div class="form-row">
                     <label for="date">Date</label>
@@ -94,7 +94,7 @@
                 <input type="submit" value="Confirm" class="reserve-button" onclick="submit_form()">
             </fieldset>
         </form>
-        
+
         <script>
             function submit_form() {
                 document.getElementById("response-msg").innerHTML = "System error. Currently we are unable to process your request.";
