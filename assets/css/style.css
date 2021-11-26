@@ -535,5 +535,10 @@ h1, h2, h3 {
      #menu li {
         margin-right: 20px;
     }
+
+    .reservation-form {
+        max-width: 300px;
+        left: 1%;
+    }
 }
 
