@@ -460,6 +460,10 @@ h1, h2, h3 {
 }
 
 @media (max-width: 900px) {
+    #hero-image {
+        background: url("../images/home-hero-image-small.jpg") no-repeat center center;
+    }
+
     #nav {
         float: left;
         margin-left: 30px;
