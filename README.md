@@ -4,11 +4,11 @@ Cappadocia Tour is a company offer local guided tours in the Cappadocia region i
 
 ## Objectives
 
-    The Company would like to expand their business model by introducing an online reservation booking system to their business. The site will offer the available tours to the tourists in the region and allow them to make reservation.
+The Company would like to expand their business model by introducing an online reservation booking system to their business. The site will offer the available tours to the tourists in the region and allow them to make reservation.
 
-    The target audients will be the tourists travelling to the Cappadocia region and wish to go on guided tours around the region.
+The target audients will be the tourists travelling to the Cappadocia region and wish to go on guided tours around the region.
 
-    For the initial phase of this project, the tours are only available for the 2022 season, 3 are available and only 12 images in the gallery.
+For the initial phase of this project, the tours are only available for the 2022 season, 3 are available and only 12 images in the gallery.
 
 ### Business Goals
 * To make an online present
@@ -182,6 +182,7 @@ The following report shows the final tests result that have been carried out.
 <img src="assets/images/readme/test-report-page4.png" alt="Test Report Page 4" width="1200">
 <img src="assets/images/readme/test-report-page5.png" alt="Test Report Page 5" width="1200">
 <img src="assets/images/readme/test-report-page6.png" alt="Test Report Page 6" width="1200">
+<img src="assets/images/readme/test-report-page7.png" alt="Test Report Page 7" width="1200">
 
 ## Validator Testing
 Validator testing is used to validate codes that are legally written and to identify any possible errors. This can be done by using online automated testing tools to scan through the codes.
@@ -191,11 +192,63 @@ The tools used for this project are
 
 The code can be copied and paste directly into the validator to perform the test. A report will be generated with the test results where it identified the errors. The validator will show passed when the code is free of error.
 
-Although the site seems to be functioning correctly but during the initial validation test, it was identified that one of the ID name in the HTML was not unique and used in several places. This was rectified then repeat and passed the test.
+Although the site seems to be functioning correctly but during the initial validation test, it was identified that one of the ID name in the HTML was not unique and used in several places. This was rectified then the process repeated and passed the test.
 # INSERT TEST RESULTS HERE
 
-## Perfomance Testing
-Lighthouse is a tool in Chrome Development Tools that allows developer to test their website. Performance is one of the tests carried out and it can identify where you can improve the performance.
+## Perfomance and Accessibility Testing
+Lighthouse is a tool in Chrome Development Tools that allows developer to test their website. Performance and Accessibility are two of the tests carried out by Lighthouse and it can identify where you can improve the performance and accessibility.
 
-The performance testing was carried out on the site and shows each page can be improved on the images that are used. There were several attempts to improve the performance by reducing dimensions, file sizes and file formats. The test cycle was repeated on each attempt and the final version was used the minimum dimensions on each image, converted into Webp from Jpg format and optimized the file size by using image optimiser tool.
-# INSERT TEST RESULTS HERE
+The performance testing was carried out on the site and shows each page can be improved on the images that are used. There were several attempts to improve the performance by reducing dimensions, file sizes and file formats. The test cycle was repeated on each attempt and the final version was to use the minimum dimensions on each image, convert into Webp from Jpg format and optimize the file size by using image optimiser tool.
+# TEST RESULTS NEED TO BE UPDATED HERE
+<img src="assets/images/readme/performance-report-home.png" alt="Performance Report Home Page" width="1200">
+<img src="assets/images/readme/performance-report-gallery.png" alt="Performance Report Gallery Page" width="1200">
+<img src="assets/images/readme/performance-report-reservation.png" alt="Performance Report Reservation Page" width="1200">
+
+## Unfixed Bugs
+Currently, the reservation page is not fully developed. There is no backend to support the site and the submission of the form is only a simulation by returning an error message with the system.
+
+The validation and implementation to the backend is out of this project scope but it can be developed in future to become a fully operational website.
+
+## Deployment
+
+## Credits
+### Content
+The content of the website is an adaptation of the Love Running project. Initially the HTML was based on the Love Running project but found the code become cumbersome as the development progress. Then I have decided to use flexbox feature to rewrite some of the sections like the footer and the reservation form.
+
+The information and description of Cappadocia tours are from the following websites:
+
+* interpid - [https://www.intrepidtravel.com](https://www.intrepidtravel.com/) 
+* Viator - [https://www.viator.com/](https://www.viator.com/)
+
+The footer icons for the Social Media are from:
+
+* Font Awesome website - [https://fontawesome.com/](https://fontawesome.com/)
+
+The image zoom technique is based on the example from:
+
+* W3schools - [https://www.w3schools.com/howto/howto_css_zoom_hover.asp](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)
+
+The flexbox techniques are based on the following youtube videos and websites
+
+* Flexbox challenge - [https://flexboxfroggy.com/](https://flexboxfroggy.com/)
+* Youtube by Thomas Bradley on flexbox columns - [https://www.youtube.com/watch?v=P2oSp_N-I7s](https://www.youtube.com/watch?v=P2oSp_N-I7s)
+* Youtube by LearnWebCode on Flexbox Tutorial - [https://www.youtube.com/watch?v=k32voqQhODc](https://www.youtube.com/watch?v=k32voqQhODc)
+
+### Media
+The image logo has been edited and from [Pixabay.com](https://pixabay.com/)
+The photo images are taken by myself and copyright free
+
+## Tools
+* Gitpod and Github
+* Image editor - Adobe Photoshop
+* Image file size optimiser - [tinypng.com](https://tinypng.com/)
+* File format conversion from Jpeg to Webp - [convertio.co](https://convertio.co/jpg-webp/)
+* Chrome Dev Tools
+* W3C validators
+* Webpage Screenshots - Chrome app extension (FireShot)
+* WAVE Web Accessibility Evaluation Tool - [https://wave.webaim.org/](https://wave.webaim.org/)
+
+## Acknowledgment
+Learning Support - [Code Insititue](https://codeinstitute.net/)
+
+Mentoring Support - [Daisy McGirr](https://github.com/Daisy-McG)
