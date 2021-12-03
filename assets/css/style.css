@@ -582,6 +582,15 @@ h1, h2, h3 {
         width: 270px;
         height: 180px;
     }
+
+    .reservation-form {
+        left: 3%;
+    }
+    
+    .form-row{
+        width: 298px
+    }
+
 }
 
 @media (max-width: 360px) {
