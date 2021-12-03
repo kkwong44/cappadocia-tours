@@ -440,43 +440,6 @@ h1, h2, h3 {
     }
 }
 
-@media (max-width: 600px) {
-    #discover-cappadocia, #guided-tours {
-        font-size:large;
-    }
-    
-    #hero-outer, #hero-image {
-        height: 200px;
-    }
-
-    #hero-cover-text {
-        font-size: 100%;
-        width: 350px;
-        height: 30px;
-    }
-
-    .tour-button-cta {
-        font-size: 50%;
-    }
-}
-
-@media (max-width: 900px) {
-    #hero-image {
-        background: url("../images/home-hero-image-small.webp") no-repeat center center;
-    }
-
-    #nav {
-        float: left;
-        margin-left: 30px;
-    }
-
-    #menu {
-        float: left;
-        font-size: 100%;
-        line-height: 35px;
-    }
-}
-
 @media (min-width: 900px) {
     .tours-flex-container {
         display: flex;
@@ -510,6 +473,23 @@ h1, h2, h3 {
     }
 }
 
+@media (max-width: 900px) {
+    #hero-image {
+        background: url("../images/home-hero-image-small.webp") no-repeat center center;
+    }
+
+    #nav {
+        float: left;
+        margin-left: 30px;
+    }
+
+    #menu {
+        float: left;
+        font-size: 100%;
+        line-height: 35px;
+    }
+}
+
 @media (min-width: 600px) {
     .zoom-img {
         transition: transform .2s;
@@ -518,6 +498,26 @@ h1, h2, h3 {
     .zoom-img:hover {
         transform: scale(1.5);
       }
+}
+
+@media (max-width: 600px) {
+    #discover-cappadocia, #guided-tours {
+        font-size:large;
+    }
+    
+    #hero-outer, #hero-image {
+        height: 200px;
+    }
+
+    #hero-cover-text {
+        font-size: 100%;
+        width: 350px;
+        height: 30px;
+    }
+
+    .tour-button-cta {
+        font-size: 50%;
+    }
 }
 
 @media (max-width: 520px) {
