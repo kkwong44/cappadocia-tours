@@ -244,7 +244,6 @@ At this stage performance issues on mobile devices is beyond my scope. In order 
 * You can suspend the published site by selecting none from the source section
 >
 <img src="assets/images/readme/screenshot-github-page.png" alt="Github Pages" width="1200">
->
 
 The live site for this project is published under [https://kkwong44.github.io/cappadocia-tours/](https://kkwong44.github.io/cappadocia-tours/)
 
