@@ -3,7 +3,6 @@
 <!-- HTML Start with Language set to english -->
 <html lang="en">
 <!-- Head Start with meta data -->
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,7 +20,6 @@
 </head>
 <!-- Head End -->
 <!-- Body Start -->
-
 <body>
     <!-- Page Header Start -->
     <header>
@@ -50,29 +48,33 @@
     <main>
         <!-- Form Section Start -->
         <section class="form-section">
+            <!-- Form Start -->
             <form action="https://cappadociatours.co.uk/" method="POST" id="form" class="reservation-form">
+                <!-- Form Title -->
                 <h1>Let's book your reservation!</h1>
+                <!-- Input Fields Start -->
                 <fieldset>
+                    <!-- Input First Name -->
                     <div class="form-row">
                         <label for="fname">First Name</label>
                         <input type="text" name="first_name" required id="fname" class="text-input">
                     </div>
-
+                    <!-- Input Last Name -->
                     <div class="form-row">
                         <label for="lname">Last Name</label>
                         <input type="text" name="last_name" required id="lname" class="text-input">
                     </div>
-
+                    <!-- Input Telephone number -->
                     <div class="form-row">
                         <label for="telephone">Telephone</label>
                         <input type="tel" name="telephone" required id="telephone" class="text-input">
                     </div>
-
+                    <!-- Input Email address -->
                     <div class="form-row">
                         <label for="email">Email</label>
                         <input type="email" name="email_address" required id="email" class="text-input">
                     </div>
-
+                    <!-- Radio button Start for tour selection -->
                     <fieldset>
                         <label for="red-tour">Red Tour</label>
                         <input type="radio" name="tour_preference" value="red" required id="red-tour" class="radio"
@@ -82,48 +84,53 @@
                         <label for="balloon-tour">Hot Air Balloon Tour</label>
                         <input type="radio" name="tour_preference" value="balloon" id="balloon-tour" class="radio">
                     </fieldset>
-
+                    <!-- Radio button End for tour selection -->
+                    <!-- Input Date -->
                     <div class="form-row">
                         <label for="date">Date</label>
                         <input type="date" name="date" required id="date" class="text-input">
                     </div>
-
+                    <!-- Input number of Adult -->
                     <div class="form-row">
                         <label for="adult">Adult</label>
                         <input type="number" name="adult" required id="adult" class="text-input" value="2">
                     </div>
-
+                    <!-- Input number of Children -->
                     <div class="form-row">
                         <label for="child">Childern</label>
                         <input type="number" name="child" required id="child" class="text-input" value="0">
                     </div>
-
+                    <!-- Terms and Conditions -->
                     <p>* Children must over 12 and accompanied by adult.</p>
-
+                    <!-- Input text Message -->
                     <label for="text-area">Message</label>
                     <div class="form-row">
                         <textarea rows="4" cols="52" name="comment" form="form" onfocus="this.value=''" id="text-area"
                             class="text-input msg-input">Enter message here...</textarea>
                     </div>
-
+                    <!-- Response message -->
                     <span id="response-msg"></span>
+                    <!-- Submit and Reset Buttons -->
                     <input type="reset" value="Reset" class="reset-button" onclick="reset_form()">
                     <input type="submit" value="Confirm" class="reserve-button" onclick="submit_form()">
                 </fieldset>
+                <!-- Input Fields End -->
             </form>
-
+            <!-- Form End -->
+            <!-- Event Script Start for Submit and Reset buttons -->
             <script>
                 function submit_form() {
                     document.getElementById("response-msg").innerHTML =
                         "System error. Currently we are unable to process your request.";
                 }
-
                 function reset_form() {
                     document.getElementById("response-msg").innerHTML = "";
                     document.getElementById("text-area").value = "Enter message here...";
                 }
             </script>
+            <!-- Event Script End for Submit and Reset buttons -->
         </section>
+        <!-- Form Section End -->
     </main>
     <!-- Main Section End -->
     <!-- Footer Section Start -->
