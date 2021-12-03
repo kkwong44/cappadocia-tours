@@ -100,7 +100,7 @@ h1, h2, h3 {
     transform: translate(-50%, 0);
   }
 
-#hero-cover-text h2{
+#hero-cover-text h1{
     color: #fff;
     text-shadow: 1px 1px 4px #000000;
     transform: translate(0, -10%);
