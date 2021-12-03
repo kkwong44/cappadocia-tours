@@ -559,3 +559,31 @@ h1, h2, h3 {
         flex: 1;
     }
 }
+
+@media (max-width: 360px) {
+    #logo {
+        font-size: 160%;
+        line-height: 60px;
+        margin-left: 10px;
+    }
+
+    #logo-img {
+        width: 30px;
+        height: 30px;
+        margin: 15px 5px 15px 5px;
+    }
+
+    #nav {
+        margin-left: 10px;
+    }
+
+    #menu li {
+        margin-right: 15px;
+    }
+
+    #hero-cover-text {
+        font-size: 95%;
+        width: 340px;
+        height: 28px;
+    }
+}
