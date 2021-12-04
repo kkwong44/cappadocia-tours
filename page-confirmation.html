@@ -3,6 +3,7 @@
 <!-- HTML Start with Language set to english -->
 <html lang="en">
 <!-- Head Start with meta data -->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,6 +21,7 @@
 </head>
 <!-- Head End -->
 <!-- Body Start -->
+
 <body>
     <!-- Page Header Start -->
     <header>
@@ -57,48 +59,49 @@
                     <!-- Input First Name -->
                     <div class="form-row">
                         <label for="fname">First Name</label>
-                        <input type="text" name="first_name" required id="fname" class="text-input">
+                        <input type="text" name="first_name" disabled id="fname" class="text-input">
                     </div>
                     <!-- Input Last Name -->
                     <div class="form-row">
                         <label for="lname">Last Name</label>
-                        <input type="text" name="last_name" required id="lname" class="text-input">
+                        <input type="text" name="last_name" disabled id="lname" class="text-input">
                     </div>
                     <!-- Input Telephone number -->
                     <div class="form-row">
                         <label for="telephone">Telephone</label>
-                        <input type="tel" name="telephone" required id="telephone" class="text-input">
+                        <input type="tel" name="telephone" disabled id="telephone" class="text-input">
                     </div>
                     <!-- Input Email address -->
                     <div class="form-row">
                         <label for="email">Email</label>
-                        <input type="email" name="email_address" required id="email" class="text-input">
+                        <input type="email" name="email_address" disabled id="email" class="text-input">
                     </div>
                     <!-- Radio button Start for tour selection -->
                     <fieldset>
                         <label for="red-tour">Red Tour</label>
-                        <input type="radio" name="tour_preference" value="red" required id="red-tour" class="radio"
+                        <input type="radio" name="tour_preference" value="red" disabled id="red-tour" class="radio"
                             checked>
                         <label for="green-tour">Green Tour</label>
-                        <input type="radio" name="tour_preference" value="green" id="green-tour" class="radio">
+                        <input type="radio" name="tour_preference" value="green" disabled id="green-tour" class="radio">
                         <label for="balloon-tour">Hot Air Balloon Tour</label>
-                        <input type="radio" name="tour_preference" value="balloon" id="balloon-tour" class="radio">
+                        <input type="radio" name="tour_preference" value="balloon" disabled id="balloon-tour"
+                            class="radio">
                     </fieldset>
                     <!-- Radio button End for tour selection -->
                     <!-- Input Date -->
                     <div class="form-row">
                         <label for="date">Date</label>
-                        <input type="date" name="date" required id="date" class="text-input">
+                        <input type="date" name="date" disabled id="date" class="text-input">
                     </div>
                     <!-- Input number of Adult -->
                     <div class="form-row">
                         <label for="adult">Adult</label>
-                        <input type="number" name="adult" required id="adult" class="text-input" value="2">
+                        <input type="number" name="adult" disabled id="adult" class="text-input" value="">
                     </div>
                     <!-- Input number of Children -->
                     <div class="form-row">
                         <label for="child">Childern</label>
-                        <input type="number" name="child" required id="child" class="text-input" value="0">
+                        <input type="number" name="child" disabled id="child" class="text-input" value="">
                     </div>
                     <!-- Terms and Conditions -->
                     <p>* Children must over 12 and accompanied by adult.</p>
@@ -106,7 +109,7 @@
                     <label for="text-area">Message</label>
                     <div class="form-row">
                         <textarea rows="4" cols="52" name="comment" form="form" onfocus="this.value=''" id="text-area"
-                            class="text-input msg-input">Enter message here...</textarea>
+                            disabled class="text-input msg-input"></textarea>
                     </div>
                     <!-- Response message -->
                     <span id="response-msg"></span>
@@ -156,5 +159,6 @@
     <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
 </body>
 <!-- Body End -->
+
 </html>
 <!-- HTML End -->
