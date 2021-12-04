@@ -110,25 +110,10 @@
                     </div>
                     <!-- Response message -->
                     <span id="response-msg"></span>
-                    <!-- Submit and Reset Buttons -->
-                    <input type="reset" value="Reset" class="reset-button" onclick="reset_form()">
-                    <input type="submit" value="Confirm" class="reserve-button" onclick="submit_form()">
                 </fieldset>
                 <!-- Input Fields End -->
             </form>
             <!-- Form End -->
-            <!-- Event Script Start for Submit and Reset buttons -->
-            <script>
-                function submit_form() {
-                    document.getElementById("response-msg").innerHTML =
-                        "System error. Currently we are unable to process your request.";
-                }
-                function reset_form() {
-                    document.getElementById("response-msg").innerHTML = "";
-                    document.getElementById("text-area").value = "Enter message here...";
-                }
-            </script>
-            <!-- Event Script End for Submit and Reset buttons -->
         </section>
         <!-- Form Section End -->
     </main>
