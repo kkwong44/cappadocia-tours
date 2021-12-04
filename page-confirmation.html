@@ -1,0 +1,175 @@
+<!-- Document Type: HTML -->
+<!DOCTYPE html>
+<!-- HTML Start with Language set to english -->
+<html lang="en">
+<!-- Head Start with meta data -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reserve guided tours in Cappadocia region, Turkey">
+    <meta name="keywords" content="tours, guided tours, cappadocia, turkey">
+    <!-- Link to stylesheet and page title -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Cappadocia Tours</title>
+    <!-- Links to favicon images-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+</head>
+<!-- Head End -->
+<!-- Body Start -->
+<body>
+    <!-- Page Header Start -->
+    <header>
+        <!-- Link company name and logo image to home page -->
+        <a href="index.html">
+            <span id="logo"><b>Cappadocia Tours</b></span>
+            <img id="logo-img" src="assets/images/home-logo.png" alt="company logo">
+        </a>
+        <!-- Navigation Menu and set reservation page active -->
+        <nav id="nav">
+            <ul id="menu">
+                <li>
+                    <a href="page-reservation.html" class="active">Reservation</a>
+                </li>
+                <li>
+                    <a href="page-gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Page Header End -->
+    <!-- Main Section Start -->
+    <main>
+        <!-- Form Section Start -->
+        <section class="form-section">
+            <!-- Form Start -->
+            <form action="https://cappadociatours.co.uk/" method="POST" id="form" class="reservation-form">
+                <!-- Form Title -->
+                <h1>Let's book your reservation!</h1>
+                <!-- Input Fields Start -->
+                <fieldset>
+                    <!-- Input First Name -->
+                    <div class="form-row">
+                        <label for="fname">First Name</label>
+                        <input type="text" name="first_name" required id="fname" class="text-input">
+                    </div>
+                    <!-- Input Last Name -->
+                    <div class="form-row">
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="last_name" required id="lname" class="text-input">
+                    </div>
+                    <!-- Input Telephone number -->
+                    <div class="form-row">
+                        <label for="telephone">Telephone</label>
+                        <input type="tel" name="telephone" required id="telephone" class="text-input">
+                    </div>
+                    <!-- Input Email address -->
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input type="email" name="email_address" required id="email" class="text-input">
+                    </div>
+                    <!-- Radio button Start for tour selection -->
+                    <fieldset>
+                        <label for="red-tour">Red Tour</label>
+                        <input type="radio" name="tour_preference" value="red" required id="red-tour" class="radio"
+                            checked>
+                        <label for="green-tour">Green Tour</label>
+                        <input type="radio" name="tour_preference" value="green" id="green-tour" class="radio">
+                        <label for="balloon-tour">Hot Air Balloon Tour</label>
+                        <input type="radio" name="tour_preference" value="balloon" id="balloon-tour" class="radio">
+                    </fieldset>
+                    <!-- Radio button End for tour selection -->
+                    <!-- Input Date -->
+                    <div class="form-row">
+                        <label for="date">Date</label>
+                        <input type="date" name="date" required id="date" class="text-input">
+                    </div>
+                    <!-- Input number of Adult -->
+                    <div class="form-row">
+                        <label for="adult">Adult</label>
+                        <input type="number" name="adult" required id="adult" class="text-input" value="2">
+                    </div>
+                    <!-- Input number of Children -->
+                    <div class="form-row">
+                        <label for="child">Childern</label>
+                        <input type="number" name="child" required id="child" class="text-input" value="0">
+                    </div>
+                    <!-- Terms and Conditions -->
+                    <p>* Children must over 12 and accompanied by adult.</p>
+                    <!-- Input text Message -->
+                    <label for="text-area">Message</label>
+                    <div class="form-row">
+                        <textarea rows="4" cols="52" name="comment" form="form" onfocus="this.value=''" id="text-area"
+                            class="text-input msg-input">Enter message here...</textarea>
+                    </div>
+                    <!-- Response message -->
+                    <span id="response-msg"></span>
+                    <!-- Submit and Reset Buttons -->
+                    <input type="reset" value="Reset" class="reset-button" onclick="reset_form()">
+                    <input type="submit" value="Confirm" class="reserve-button" onclick="submit_form()">
+                </fieldset>
+                <!-- Input Fields End -->
+            </form>
+            <!-- Form End -->
+            <!-- Event Script Start for Submit and Reset buttons -->
+            <script>
+                function submit_form() {
+                    document.getElementById("response-msg").innerHTML =
+                        "System error. Currently we are unable to process your request.";
+                }
+                function reset_form() {
+                    document.getElementById("response-msg").innerHTML = "";
+                    document.getElementById("text-area").value = "Enter message here...";
+                }
+            </script>
+            <!-- Event Script End for Submit and Reset buttons -->
+        </section>
+        <!-- Form Section End -->
+    </main>
+    <!-- Main Section End -->
+    <!-- Footer Section Start -->
+    <footer id="footer">
+        <!-- Contact details Start with email link -->
+        <div class="footer-contact">
+            <p><strong>Contact us:</strong></p>
+            <br>
+            <p>Cappadocia Tours, UK</p>
+            <a href="mailto:info@cappdociatours.co.uk"
+                aria-label="Open email client in a new window.">info@cappdociatours.co.uk</a>
+        </div>
+        <!-- Contact details End -->
+        <!-- Follow us Start on social networks in new window -->
+        <div class="social-networks">
+            <span><strong>Find us on:</strong></span>
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
+                        aria-label="Open Facebook page in a new window."><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
+                        aria-label="Open Twitter page in a new window."><i class="fab fa-twitter"></i></a>
+                </li>
+                <li><a href="https://www.youtube.com" target="_blank" rel="noopener"
+                        aria-label="Open Youtube page in a new window."><i class="fab fa-youtube-square"></i></a>
+                </li>
+            </ul>
+        </div>
+        <!-- Follow us End -->
+        <!-- Copyright Start -->
+        <div class="copyright">
+            <p>Copyright © Cappadocia Tours 2021</p>
+        </div>
+        <!-- Copyright End -->
+    </footer>
+    <!-- Footer Section End -->
+    <!-- Font awesome script -->
+    <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
+</body>
+<!-- Body End -->
+</html>
+<!-- HTML End -->
