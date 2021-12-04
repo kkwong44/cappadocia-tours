@@ -1,25 +1,31 @@
+/* Import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
+/* General - Set default values to none*/
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
-body{
+
+/* General - Set font properties */
+body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
 
-/* Headings and Logo */
-
-h1, h2, h3 {
+/* General - Set Headings properties */
+h1,
+h2,
+h3 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
 }
 
+/* Header, Company Name as Logo - All Pages */
 #logo {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -28,8 +34,10 @@ h1, h2, h3 {
     float: left;
     font-size: 280%;
     margin-left: 30px;
+    line-height: 75px;
 }
 
+/* Header, Logo Image - All Pages */
 #logo-img {
     width: 45px;
     height: 45px;
@@ -37,11 +45,12 @@ h1, h2, h3 {
     margin: 15px;
 }
 
-/* Navigation links */
+/* Header, Navigation Section - All Pages */
 #nav {
     width: auto;
 }
 
+/* Header, Navigation Menu - All Pages */
 #menu {
     float: right;
     font-size: 110%;
@@ -49,31 +58,30 @@ h1, h2, h3 {
     line-height: 75px;
 }
 
-#logo {
-    line-height: 75px;
-}
-
+/* Header, Navigation Menu List - All Pages */
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
 
-#menu a{
+/* Header, Navigation Menu Item - All Pages */
+#menu a {
     text-decoration: none;
     color: inherit;
 }
 
+/* Header, Navigation Menu Item on Hover - All Pages */
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* Header, Set Underline on Active Menu Item - All Pages */
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Container holding hero image, text and call to action button */
-
+/* Home Page - Container holding Hero Image, Cover Text and Call To Action Button */
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -81,8 +89,9 @@ h1, h2, h3 {
     position: relative;
     text-align: center;
     position: relative;
-  }
+}
 
+/* Home Page - Cover Text */
 #hero-cover-text {
     font-size: 280%;
     font-family: Oswald, sans-serif;
@@ -98,14 +107,16 @@ h1, h2, h3 {
     left: 50%;
     bottom: 45%;
     transform: translate(-50%, 0);
-  }
+}
 
-#hero-cover-text h1{
+/* Home Page - Cover Text Heading */
+#hero-cover-text h1 {
     color: #fff;
     text-shadow: 1px 1px 4px #000000;
     transform: translate(0, -10%);
 }
 
+/* Home Page - Hero Image */
 #hero-image {
     height: 600px;
     width: 100%;
@@ -113,6 +124,7 @@ h1, h2, h3 {
     background-size: cover;
 }
 
+/* Home Page - Call To Action Button */
 .tour-button-cta {
     margin-top: 10px;
     border-radius: 10px;
@@ -130,46 +142,51 @@ h1, h2, h3 {
     transform: translate(-50%, 0);
 }
 
-.tour-button-cta:hover{
+/* Home Page - Hover on Call To Action Button */
+.tour-button-cta:hover {
     background-color: #000000;
     color: #f16c6b;
 }
 
-/* About Cappadocia region */
-
+/* Home Page - About Cappadocia Section */
 #about-cappadocia {
     height: 10%;
 }
 
+/* Home Page - Dicover Cappadocia Heading */
 #discover-cappadocia {
     text-align: center;
     margin: 20px 0;
 }
 
-#about-discovery, #about-tours {
+/* Home Page - Description on Discover and Tours */
+#about-discovery,
+#about-tours {
     font-size: 110%;
     width: 80%;
     margin: 0 auto 5%;
     line-height: 20px;
 }
 
-/* Guided Tours */
-
+/* Home Page - Guided Tours Section */
 #tours {
     margin-bottom: 5%;
 }
 
+/* Home Page - Guided Tours Section Heading */
 #guided-tours {
     text-align: center;
     margin: 20px 0;
 }
 
+/* Home Page - Conatiner for Guided Tours Section */
 .tours-flex-container {
     margin: 0 10%;
     text-align: center;
 }
 
-.tour-flex-element{
+/* Home Page - Display Tour in a Column */
+.tour-flex-element {
     flex-basis: 30%;
     border: 1px solid black;
     display: flex;
@@ -178,30 +195,38 @@ h1, h2, h3 {
     margin-bottom: 10px;
 }
 
+/* Home Page - Set Same Width to List Items */
 .tours-flex-container ul {
     flex-grow: 1;
 }
 
-#tour-image1, #tour-image2, #tour-image3 {
+/* Home Page - Guided Tour Images */
+#tour-image1,
+#tour-image2,
+#tour-image3 {
     width: 80%;
-    margin-left: 10%; 
+    margin-left: 10%;
 }
 
+/* Home Page - Guided Tour Heading */
 #tours h3 {
     padding: 20px;
     font-size: 110%;
 }
 
+/* Home Page - Guided Tour Description */
 .tour-desc {
     padding-top: 10px;
     text-align: left;
     margin: 0 10% 5%;
 }
 
+/* Home Page - Guided Tour Itinerary */
 .tour-desc li {
     margin: 0 5%;
 }
 
+/* Home Page - Reservation Button */
 .reservation-button-cta {
     width: fit-content;
     margin: 0 auto 50px;
@@ -215,21 +240,23 @@ h1, h2, h3 {
     color: #000000;
 }
 
+/* Home Page - Hover on Reservation Button */
 .reservation-button-cta:hover {
     background-color: #006400;
     color: #000000;
 }
 
-/* Footer */
-
+/* Footer, Initial Background Color - All Papges */
 #footer {
     background-color: #fff;
 }
 
+/* Footer, Font Size on Strong - All Pages */
 #footer strong {
     font-size: 120%;
 }
 
+/* Footer, Contact Section - All Pages */
 .footer-contact {
     padding: 30px;
     height: 90px;
@@ -241,15 +268,19 @@ h1, h2, h3 {
     background-color: #3a3a3a;
 }
 
+/* Footer, Contact href - All Pages */
 .footer-contact a {
     text-decoration: none;
     color: #fafafa;
 }
 
+/* Footer, Contact Hover on href - All Pages*/
 .footer-contact a:hover {
     text-decoration: none;
     color: black;
 }
+
+/* Footer, Social Network Section - All Pages */
 .social-networks {
     margin-top: 5px;
     text-align: center;
@@ -261,10 +292,12 @@ h1, h2, h3 {
     background-color: #3a3a3a;
 }
 
+/* Footer, Social Network Items - All Pages */
 .social-networks li {
     display: inline;
 }
 
+/* Footer, Social Network Icons - All Pages */
 .social-networks i {
     font-size: 160%;
     text-align: center;
@@ -272,11 +305,13 @@ h1, h2, h3 {
     color: #fafafa;
 }
 
+/* Footer, Hover on Social Network Icons - All Pages */
 .social-networks i:hover {
     font-size: 160%;
     color: black;
 }
 
+/* Footer, Copyright Section - All Pages */
 .copyright {
     margin-top: 5px;
     padding: 75px 0;
@@ -287,8 +322,7 @@ h1, h2, h3 {
     background-color: #3a3a3a;
 }
 
-/* Gallery Page */
-
+/* Gallery Page - Heading */
 #gallery-heading {
     width: 100%;
     margin: 0 auto 10px;
@@ -299,6 +333,7 @@ h1, h2, h3 {
     color: #fff;
 }
 
+/* Gallery Page - Gallery Layout in Rows and Columns */
 #gallery {
     width: 85%;
     margin: 0 auto 10px;
@@ -307,6 +342,7 @@ h1, h2, h3 {
     justify-content: center;
 }
 
+/* Gallery Page - Image Canvas */
 .images {
     width: 360px;
     height: 240px;
@@ -316,13 +352,13 @@ h1, h2, h3 {
     border: 1px solid #3a3a3a;
 }
 
+/* Gallery Page - Image Size */
 .img {
     width: 360px;
     height: 240px;
 }
 
-/* Reservation Page */
-
+/* Reservation and Confirmation Page - Background Image */
 .form-section {
     clear: left;
     background: url("../images/reservation-background.webp") no-repeat #000000;
@@ -331,9 +367,10 @@ h1, h2, h3 {
     height: 900px;
 }
 
+/* Reservation and Confirmation Page - Reservation Form Setting */
 .reservation-form {
     margin: 5% 10% 0 0;
-    color:#fff;
+    color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: absolute;
@@ -341,30 +378,37 @@ h1, h2, h3 {
     padding: 30px;
 }
 
-.reservation-form > h1 {
+/* Reservation and Confirmation Page - Reservation Form Heading */
+.reservation-form>h1 {
     color: #fafafa;
     margin-bottom: 20px;
 }
 
+/* Reservation and Confirmation Page - Text in Reservation Form */
 .form-section p {
     font-size: 80%;
     margin-right: 20px;
     text-align: right;
 }
-.form-row{
+
+/* Reservation and Confirmation Page - Form Row Setting */
+.form-row {
     margin: 15px 0;
     display: flex;
 }
 
+/* Reservation and Confirmation Page - Row Label Width */
 .form-row label {
     padding-right: 10px;
     flex: 1;
 }
 
+/* Reservation and Confirmation Page - Row Input Width */
 .form-row input {
     flex: 3;
 }
 
+/* Reservation and Confirmation Page - Text Input Property */
 .text-input {
     background: transparent;
     color: #fafafa;
@@ -374,23 +418,28 @@ h1, h2, h3 {
     border-radius: 2px;
 }
 
+/* Reservation and Confirmation Page - Hover on Text Input */
 .text-input:hover {
     border-color: #bababa;
 }
 
+/* Reservation and Confirmation Page - Message Text Area */
 .msg-input {
     height: 75px;
     margin-left: 0;
 }
 
+/* Reservation and Confirmation Page - Radio Button */
 .radio {
     margin-right: 5px;
 }
 
+/* Reservation and Confirmation Page - System Calendar Picker */
 ::-webkit-calendar-picker-indicator {
     filter: invert(1);
 }
 
+/* Reservation Page - Submit Button */
 .reserve-button {
     margin-right: 20px;
     border-radius: 4px;
@@ -401,18 +450,21 @@ h1, h2, h3 {
     float: right;
 }
 
+/* Reservation Page - Hover on Submit Button */
 .reserve-button:hover {
     background-color: #006400;
     color: #32CD32;
 }
 
+/* Reservation Page - Response Message from Submission */
 #response-msg {
     color: #ff3a3a;
     font-size: 80%;
     margin-bottom: 10px;
     display: block;
-} 
+}
 
+/* Reservation Page - Reset Button */
 .reset-button {
     margin-right: 20px;
     border-radius: 4px;
@@ -422,11 +474,13 @@ h1, h2, h3 {
     color: #fff;
 }
 
+/* Reservation Page - Hover on Reset Button */
 .reset-button:hover {
     background-color: #fff;
     color: #3a3a3a;
 }
 
+/* Confirmation Page - Confirmation Message */
 .confirmation {
     color: #32CD32;
     font-size: 100%;
@@ -434,6 +488,7 @@ h1, h2, h3 {
     display: block;
 }
 
+/* Confirmation Page - Redirect Link to Tours section */
 .return {
     float: right;
     margin-right: 20px;
@@ -442,10 +497,12 @@ h1, h2, h3 {
     color: inherit;
 }
 
+/* Confirmation Page - Hover on Redirect Link to Tours section */
 .return:hover {
     color: #32CD32;
 }
 
+/* Error 404 Page - Image */
 #error-sign {
     margin-top: 50px;
     font-size: 500%;
@@ -454,88 +511,113 @@ h1, h2, h3 {
     color: orange;
 }
 
-#error > h1 {
+/* Error 404 Page - 404 Heading */
+#error>h1 {
     margin-top: 10px;
     font-size: 400%;
     text-align: center;
 }
 
-#error > h2, #error > a{
+/* Error 404 Page - Description */
+#error>h2 {
     text-align: center;
     display: block;
 }
 
-#error > a {
+/* Error 404 Page - href */
+#error>a {
+    text-align: center;
+    display: block;
     color: #3a3a3a;
 }
 
-#error > span {
+/* Error 404 Page - Message */
+#error>span {
     margin-top: 50px;
     text-align: center;
     display: block;
 }
 
-/* Media query */
+/* MEDIA QUERIES */
 
+/* Media Query - Display width below 1200px */
 @media (max-width: 1200px) {
-    #hero-outer, #hero-image {
+
+    /* Home Page - Adjust Hero Image Section */
+    #hero-outer,
+    #hero-image {
         height: 300px;
     }
 
+    /* Home Page - Adjust Civer Text */
     #hero-cover-text {
         font-size: 180%;
         width: 560px;
         height: 60px;
     }
 
+    /* Home Page - Adjust Size on Choose Your Tour */
     .tour-button-cta {
         font-size: 35%;
     }
 }
 
+/* Media Query - Display width above 900px */
 @media (min-width: 900px) {
+
+    /* Home Page - Guided Tours into Columns */
     .tours-flex-container {
         display: flex;
         justify-content: space-between;
         margin-top: 20px;
     }
 
+    /* Footer, All Sections in a Row - All Pages */
     #footer {
         height: 150px;
         display: flex;
         justify-content: space-between;
     }
-    
+
+    /* Footer, Contact Section to the Left - All Pages */
     .footer-contact {
         text-align: left;
         margin: 0;
     }
 
+    /* Footer, Social Media Section to the Right - All Pages */
     .social-networks {
         text-align: right;
         margin: 0;
     }
 
+    /* Footer, Align Sicial Media Icons - All Pages */
     .social-networks i {
         text-align: right;
         margin: 30px 0 30px 30px;
     }
 
+    /* Footer, Center CopyRight Section - All Pages */
     .copyright {
         margin: 0;
     }
 }
 
+/* Media Query - Display width below 900px */
 @media (max-width: 900px) {
+
+    /* Home Page - Use Smaller Hero Image */
     #hero-image {
         background: url("../images/home-hero-image-small.webp") no-repeat center center;
     }
 
+    /* Header, Align Navigation Section to the Left - All Pages */
     #nav {
         float: left;
         margin-left: 30px;
     }
 
+    /* Header, Adjust Navigation Menu Property - All Pages */
     #menu {
         float: left;
         font-size: 100%;
@@ -543,125 +625,161 @@ h1, h2, h3 {
     }
 }
 
+/* Media Query - Display width above 600px */
 @media (min-width: 600px) {
+
+    /* Gallery Page - Enable Image Animation */
     .zoom-img {
         transition: transform .2s;
     }
-    
+
+    /* Gallery Page - Enlarge Image */
     .zoom-img:hover {
         transform: scale(1.5);
-      }
+    }
 }
 
+/* Media Query - Display width below 600px */
 @media (max-width: 600px) {
-    #discover-cappadocia, #guided-tours {
-        font-size:large;
+
+    /* Home Page - Adjust Heading Size */
+    #discover-cappadocia,
+    #guided-tours {
+        font-size: large;
     }
-    
-    #hero-outer, #hero-image {
+
+    /* Home Page - Adjust Size on Hero Image */
+    #hero-outer,
+    #hero-image {
         height: 200px;
     }
 
+    /* Home Page - Adjust Size on Cover Text */
     #hero-cover-text {
         font-size: 100%;
         width: 350px;
         height: 30px;
     }
 
+    /* Home Page - Adjust Button Size on Choose Your Tour */
     .tour-button-cta {
         font-size: 50%;
     }
 }
 
+/* Media Query - Display width below 520px */
 @media (max-width: 520px) {
+
+    /* Header, Adjust Company Name - All Pages */
     #logo {
         font-size: 200%;
         line-height: 60px;
         margin-left: 10px;
     }
 
+    /* Header, Adjust Logo Image - All Pages */
     #logo-img {
         width: 35px;
         height: 35px;
         margin: 10px 5px 10px 5px;
     }
 
+    /* Header, Adjust Navigation Section - All Pages */
     #nav {
         margin-left: 10px;
     }
 
+    /* Header, Adjust Navigation Menu Items - All Pages */
     #menu li {
         margin-right: 20px;
     }
 
+    /* Gallery Page - Adjust Heading Size */
     #gallery-heading {
         margin: 0 auto 5px;
         font-size: 120%;
         padding: 5px 0;
     }
 
+    /* Reservation and Confirmation Page - Adjust Size on Form */
     .reservation-form {
         max-width: 290px;
         left: 5%;
         padding: 5px;
     }
-    
-    .form-row{
+
+    /* Reservation and Confirmation Page - Adjust Size on Row */
+    .form-row {
         width: 308px
     }
 
+    /* Reservation and Confirmation Page - Adjust Label on Form */
     .form-row label {
         padding-right: 10px;
         flex: none;
     }
 
+    /* Reservation and Confirmation Page - Adjust Input Width */
     .form-row input {
         flex: 1;
     }
 }
 
+/* Media Query - Display width below 400px */
 @media (max-width: 400px) {
+
+    /* Gallery Page - Adjust Image Canvas Size */
     .images {
         width: 270px;
         height: 180px;
     }
 
+    /* Gallery Page - Adjust Image Size */
     .img {
         width: 270px;
         height: 180px;
     }
 
+    /* Reservation and Confirmation Page - Adjust Form Position */
     .reservation-form {
         left: 3%;
     }
-    
-    .form-row{
+
+    /* Reservation and Confirmation Page - Adjust Size on Row */
+    .form-row {
         width: 298px
     }
 
 }
 
+/* Media Query - Display width below 360px */
 @media (max-width: 360px) {
+
+    /* Header, Adjust Company Name - All Pages */
     #logo {
         font-size: 160%;
         line-height: 60px;
         margin-left: 10px;
     }
 
+    /* Header, Adjust Logo Image - All Pages */
     #logo-img {
         width: 30px;
         height: 30px;
         margin: 15px 5px 15px 5px;
     }
 
+    /* Header, Adjust Navigation Section - All Pages */
     #nav {
         margin-left: 10px;
     }
 
+    /* Header, Adjust Navigation Menu Items - All Pages */
     #menu li {
         margin-right: 15px;
     }
 
+    /* Home Page - Adjust Cover Text */
     #hero-cover-text {
         font-size: 95%;
         width: 340px;
