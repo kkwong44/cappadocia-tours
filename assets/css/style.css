@@ -413,13 +413,6 @@ h1, h2, h3 {
     display: block;
 } 
 
-.confirmation {
-    color: #32CD32;
-    font-size: 100%;
-    margin-bottom: 10px;
-    display: block;
-}
-
 .reset-button {
     margin-right: 20px;
     border-radius: 4px;
@@ -432,6 +425,25 @@ h1, h2, h3 {
 .reset-button:hover {
     background-color: #fff;
     color: #3a3a3a;
+}
+
+.confirmation {
+    color: #32CD32;
+    font-size: 100%;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.return {
+    float: right;
+    margin-right: 20px;
+    font-size: 90%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.return:hover {
+    color: #32CD32;
 }
 
 /* Media query */
