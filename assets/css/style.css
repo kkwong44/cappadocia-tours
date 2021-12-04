@@ -446,6 +446,35 @@ h1, h2, h3 {
     color: #32CD32;
 }
 
+#error-sign {
+    margin-top: 50px;
+    font-size: 500%;
+    display: block;
+    text-align: center;
+    color: orange;
+}
+
+#error > h1 {
+    margin-top: 10px;
+    font-size: 400%;
+    text-align: center;
+}
+
+#error > h2, #error > a{
+    text-align: center;
+    display: block;
+}
+
+#error > a {
+    color: #3a3a3a;
+}
+
+#error > span {
+    margin-top: 50px;
+    text-align: center;
+    display: block;
+}
+
 /* Media query */
 
 @media (max-width: 1200px) {
