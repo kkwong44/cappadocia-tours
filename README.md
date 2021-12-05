@@ -8,7 +8,7 @@ The Company would like to expand their business model by introducing an online r
 
 The target audients will be the tourists travelling to the Cappadocia region and wish to go on guided tours around the region.
 
-For the initial phase of this project, the tours are only available for the 2022 season, 3 are available and only 12 images in the gallery.
+For the initial phase of this project, the tours are only available for the 2022 season, 3 tours are available and only 12 images in the gallery.
 
 ### Business Goals
 * To make an online present
@@ -21,13 +21,20 @@ For the initial phase of this project, the tours are only available for the 2022
 
 Click [here](https://kkwong44.github.io/cappadocia-tours/index.html) to access phase 1 project.
 
-Multi Device Website Mockup Generator
+**Multi Device Website Mockup Generator**
 
-![Screenshot Home Page](readme/mockup.png)
+Below is a mockup of the Cappadocia website generated from an online tool. 
+
+![Screenshot on Mockup](readme/screenshots/mockup.png)
 
 ## User Experience Design
 
 ### General
+There are three pages on this website for the user to explore. It allows the user to find out about the region, the tours available, browse images in the gallery and make reservation.
+
+The design of this website is to give as much information as possible to the user about the region and the contents of the tours. Also, it provides a gallery that show images related to the tours and encourage the user to make a reservation.
+
+Below are main components of the website:
 * All pages contain a logo "Cappadocia Tours", an image logo and a navigation menu at the top of the page
 * The site will be directed to the home page when the user click on the logo or the image logo
 * Navigation menu consist of links to the Home page, Gallery Page and Reservation Page
@@ -37,6 +44,11 @@ Multi Device Website Mockup Generator
 * Each social media link will be opened in a new window when its clicked
 
 ### Home Page
+This page allows the user to discover the region and tours available
+
+The outline of this page is to make an impact to the user with a hero image, the reasons to discover the region and the tours available to explore the region.
+
+Main components of this page:
 * A hero image of the Cappadocia region with cover text
 * A button link to take the user to the tours section
 * Offer tourists an information about Cappadocia region
@@ -44,18 +56,42 @@ Multi Device Website Mockup Generator
 * Show the available tours and its itineraries
 * To make reservation when click on the reserve button
 
+Screenshot - Home Page in Full
+
+![Screenshot Home Page](readme/screenshots/screenshot-homepage.png)
+
 ### Gallery Page
+The user can browse through the images display on this page which taken from the tours in the region.
+
+The idea of this page is to encourage the user to visit the region.
+
+Main components of this page:
 * This page shows images from the region
 * The images are display in a grid format
 * Each image can be enlarge when hover on large screen devices
 
+Screenshot - Gallery Page in Full
+
+![Screenshot Gallery Page](readme/screenshots/screenshot-gallerypage.png)
+
 ### Reservation Page
+This page allows the user to make a reservation.
+
+The information submitted by the user are captured and post processes can be followed up.
+
+Main components of this page:
 * The reservation form allows the user to make a reservation
 * All input fields except message are required to make reservation
 * The input fields will be validated when the submit button is click
 * A reset button is available to the user to reset the form with the default values
 
+Screenshot - Reservation Page in Full
+
+![Screenshoot Reservation Page](readme/screenshots/screenshot-reservationpage.png)
+
 ### Responsive and Accessibility
+The website has been developed to be used by as many users as possible and as many devices as possible.
+
 * The site is aim to all devices
 * Accessibility has been incorporated into the design
 
@@ -64,43 +100,99 @@ Multi Device Website Mockup Generator
 ### Header
 All pages have the same header.
 
+The header contents allow user to navigate the site.
+
+This section shows the company name, its image logo and a menu for navigate the site.
+
+    Features of this section:
     * Company Name on the left as part of the logo
     * An image of the logo next to the company name
     * A navigation menu on the right with links to Home page, Gallery page and Reservation page
     * An underline will be appeared under the menu item when hover and disappear when hover away
     * Underline always show under the menu item to indicate the current page
+
+Header on full desktop screen width
+
+![Screenshot on Page Header](readme/screenshots/screenshot-header1.png)
+
 #### Responsive
+User can access to site via different devices.
+
+The site is designed to response and give the best display on different screen width.
+
     * When the screen width is below 900px, navigation menu will move to the left under the company name
     * Also, the font size on the navigation menu will be reduced
+
+Company Name and Logo Adjusted on Mobile Devices
+
+![Screenshot on Page Header](readme/screenshots/screenshot-header2.png)
 
 ### Footer
 All Pages have the same footer.
 
+The footer section allows the user find out more information about the company.
+
+The layout is separated in 3 sections, company contact details, follows the company in social media and the copyright statement.
+
+    Features of this section:
     * Contact details are on the left with an email link
     * Copyright in the centre
     * Find us on social media on the right
     * The email link and the social media icons will be darkened when hover
     * Email client will be opened when clicked
     * A new window will be opened for each social media when clicked
+
+Footer on full desktop screen width
+
+![Screenshot on Page Footer](readme/screenshots/screenshot-footer1.png)
+
 #### Responsive
+User can access to site via different devices.
+
+The site is designed to response and give the best display on different screen width.
+
     * When the screen width is below 900px, the 3 sections will stack into a column
 
+Navigation Menu Adjusted on Mobile Devices
+
+![Screenshot on Page Footer](readme/screenshots/screenshot-footer2.png)
+
 ### Home Page
+ The user will be able to explore and discover the tours available on this page. User also allows to jump to the tours section by clicking a button.
+
+ This page is aim to attract the audience by displaying a hero image and offering them information about the region and tours. To help the user quickly to see the tours available, a button is available at the top inside the hero image.
+
+**Features on hero section**
+
     * A hero Image
     * A cover text on the hero image
     * Call to Action button to the tours section
+
+![Screenshot on Hero Section](readme/screenshots/screenshot-hero1.png)
 >
+**Features on about Cappadocia and Tours section**
+
     * About Discover Cappadocia section
     * About Company tours section
+
+![Screenshot on About Region Section](readme/screenshots/screenshot-about-tours.png)
 >
+**Features on Guided Tours section**
+
     * Guided Tours section
     * 3 tours are available
     * An image and itineraries for each tour
     * Call to Action button on each tour to direct to reservation page
 
-![Screenshot Home Page](readme/screenshot-homepage.png)
+![Screenshots on Tours](readme/screenshots/screenshot-tours1.png)
 
 #### Responsive
+User can access to site via different devices.
+
+The site is designed to response and give the best display on different screen width.
+
+**Features on Responsive**
+
     * When the screen width is below 1200px
         * Hero image - Container reduce height to 1/2
         * Hero cover text - Fontsize and size reduce
@@ -116,18 +208,54 @@ All Pages have the same footer.
         * Hero CTA - Fontsize increase further
         * Section titles - Fontsize reduce
 
+Hero Image Section - Adjusted
+
+![Screenshot on Hero Section](readme/screenshots/screenshot-hero2.png)
+
+Guided Tours Section - Adjusted
+
+![Screenshot on Tours](readme/screenshots/screenshot-tours2.png)
+
 ### Gallery Page
+User can browse the tour images on this page. They can enlarge the image by hovering on the image.
+
+The images are layout in a grid format and designed to encourage user to make reservation. An image enlargement feature is available to allow user a better viewing of the image.
+
+**Features on this page**
+
     * 12 images in the gallery
     * Each image can be enlarged when hover over the image
 
-![Screenshot Gallery Page](readme/screenshot-gallerypage.png)
+Gallery Page - Full Screen
+
+![Screenshot Gallery Page](readme/screenshots/screenshot-gallerypage1.png)
+
+Image Enlarged when Hover over the image
+
+![Screenshot Gallery Page](readme/screenshots/screenshot-gallerypage-hover.png)
 
 #### Responsive
+User can access to site via different devices.
+
+The site is designed to response and give the best display on different screen width.
+
+**Features on Responsive**
+
     * The screen width will determine number of columns
     * When the screen width is below 600px
-        * Image enlarge will be disabled
+    * Image enlargement will be disabled
+
+Gallery Page Ajusted to a Single Column on Mobile Device
+
+![Screenshot Gallery Page](readme/screenshots/screenshot-gallerypage2.png)
 
 ### Reservation Page
+User can fill in their information on this page and reserve the tour by submitting the form into the system.
+
+The data will be captured and used for post processing by the company.
+
+**Features on this page**
+
     * A reservation form can be filled and submitted to the company
     * All input fields except message are required
     * Each input field will be validated when submit button is clicked
@@ -135,11 +263,29 @@ All Pages have the same footer.
     * All data can be reset to default values when Reset button is clicked
     * A message will be returned after the form is submitted
 
-![Screenshoot Reservation Page](readme/screenshot-reservationpage.png)
+Error Message display after user click on the submit button
+
+![Screenshoot Error Message](readme/screenshots/screenshot-form1.png)
+
+**Confirmation Page is a simulated page to show the reservation has been received. This page is a duplicate of the reservation page but the input fields and buttons have been disabled. A link is offer the user to return to the tours section.**
+
+Confirmation Message display when form is successfully submitted
+
+![Screenshoot Confirmation Message](readme/screenshots/screenshot-confirmation.png)
 
 #### Responsive
+User can access to site via different devices.
+
+The site is designed to response and give the best display on different screen width.
+
+**Features on Responsive**
+
     * When the screen width is below 520px
         * The width of the Reservation Form will reduce
+
+Reservation Form Ajusted on Mobile Devices
+
+![Screenshoot Reservation Page](readme/screenshots/screenshot-reservationpage2.png)
 
 ## Future Features
 ### Home Page
@@ -175,15 +321,19 @@ There are 2 main test groups.
 The following report shows the final tests result that have been carried out.
 
 ### User Acceptance Testing Report
-![Test Report Page 1](readme/test-report-page1.png)
-![Test Report Page 2](readme/test-report-page2.png)
-![Test Report Page 3](readme/test-report-page3.png)
-![Test Report Page 4](readme/test-report-page4.png)
-![Test Report Page 5](readme/test-report-page5.png)
-![Test Report Page 6](readme/test-report-page6.png)
-![Test Report Page 7](readme/test-report-page7.png)
-![Test Report Page 8](readme/test-report-page8.png)
-![Test Report Page 9](readme/test-report-page9.png)
+![Test Report Page 1](readme/test-reports/test-report-page1.png)
+![Test Report Page 2](readme/test-reports/test-report-page2.png)
+![Test Report Page 3](readme/test-reports/test-report-page3.png)
+![Test Report Page 4](readme/test-reports/test-report-page4.png)
+![Test Report Page 5](readme/test-reports/test-report-page5.png)
+![Test Report Page 6](readme/test-reports/test-report-page6.png)
+![Test Report Page 7](readme/test-reports/test-report-page7.png)
+![Test Report Page 8](readme/test-reports/test-report-page8.png)
+![Test Report Page 9](readme/test-reports/test-report-page9.png)
+
+Screenshot - Error 404 Page not Found
+
+![Screenshot on Error 404 Page](readme/screenshots/screenshot-404.png)
 
 ## Validator Testing
 Validator testing is used to validate codes that are legally written and to identify any possible errors. This can be done by using online automated testing tools to scan through the codes.
@@ -200,46 +350,55 @@ The following reports show all HTML pages and CSS code have passed the test.
 
 Home Page - index.html
 
-![HTML Validation on Home Page](readme/validation-html-index.png)
+![HTML Validation on Home Page](readme/test-reports/validation-html-index.png)
 
 Gallery Page - gallery.html
 
-![HTML Validation on Gallery Page](readme/validation-html-gallery.png)
+![HTML Validation on Gallery Page](readme/test-reports/validation-html-gallery.png)
 
 Reservation Page - reservation.html
 
-![HTML Validation on Reservation Page](readme/validation-html-reservation.png)
+![HTML Validation on Reservation Page](readme/test-reports/validation-html-reservation.png)
 
 Confirmation Page - confirmation.html
 
-![HTML Validation on Confirmation Page](readme/validation-html-confirmation.png)
+![HTML Validation on Confirmation Page](readme/test-reports/validation-html-confirmation.png)
 
 Error 404 Page - 404.html
 
-![HTML Validation on Error 404 Page](readme/validation-html-404.png)
+![HTML Validation on Error 404 Page](readme/test-reports/validation-html-404.png)
 
 Stylesheet - style.css
 
-![HTML Validation on Stylesheet](readme/validation-css.png)
+![HTML Validation on Stylesheet](readme/test-reports/validation-css.png)
 
 ## Performance and Accessibility Testing
 Lighthouse is a tool in Chrome Development Tools that allows developer to test their website. Performance and Accessibility are two of the tests carried out by Lighthouse and it can identify where you can improve the performance and accessibility.
 
-The performance testing was carried out on the site and shows each page can be improved on the images that are used. There were several attempts to improve the performance by reducing dimensions, file sizes and file formats. The test cycle was repeated on each attempt and the final version was to use the minimum dimensions on each image, convert into Webp from Jpg format and optimize the file size by using image optimiser tool.
+The performance testing was carried out on the site and shows each page can be improved on the images that were used. There were several attempts to improve the performance by reducing dimensions, file sizes and file formats. The test cycle was repeated on each attempt and the final version was to use the minimum dimensions on each image, convert into Webp from Jpg format and optimize the file size by using image optimiser tool.
 
-From the lighthouse reports, it shows the site perform well on desktop and acceptable on mobile devices. I have physically tested the site on tablet and mobile phone and the performance seems to be normal and without lagging.
+From the lighthouse reports at below, it shows the site perform well. The site was physically tested on several devices from desktops, tablets and mobile phones. The performance on these devices were operated normally and without lagging.
 
-# TEST RESULTS NEED TO BE UPDATED HERE
-![Performance Report Home Page](readme/performance-report-home.png)
-![Performance Report Gallery Page](readme/performance-report-gallery.png)
-![Performance Report Reservation Page](readme/performance-report-reservation.png)
+Lighthouse Report on index.html
+
+![Performance Report Home Page](readme/test-reports/performance-report-home.png)
+
+Lighthouse Report on gallery.html
+
+![Performance Report Gallery Page](readme/test-reports/performance-report-gallery.png)
+
+Lighthouse Report on reservation.html
+
+![Performance Report Reservation Page](readme/test-reports/performance-report-reservation.png)
+
+Lighthouse Report on confirmation.html
+
+![Performance Report Confirmation Page](readme/test-reports/performance-report-confirmation.png)
 
 ## Unfixed Bugs
-Currently, the reservation page is not fully developed. There is no backend to support the site and the submission of the form is only a simulation by returning an error message on the system.
+Currently, the reservation page is not fully developed. There is no backend to support the site and the submission of the form is only a simulated by returning a Reservation Received message.
 
 The validation and implementation to the backend is out of this project scope but it can be developed in future to become a fully operational website.
-
-At this stage performance issues on mobile devices is beyond my scope. In order to fine turn this site, further research and investigation is needed to improve the performance on mobile devices.
 
 ## Deployment
 ### Tools
@@ -266,7 +425,7 @@ At this stage performance issues on mobile devices is beyond my scope. In order 
 * Under the Source section, you need to select main from Branch in order to publish the site
 * You can suspend the published site by selecting none from the source section
 
-![Github Pages](readme/screenshot-github-page.png)
+![Github Pages](readme/screenshots/screenshot-github-page.png)
 
 The live site for this project is published under [https://kkwong44.github.io/cappadocia-tours/](https://kkwong44.github.io/cappadocia-tours/)
 
@@ -303,10 +462,14 @@ During this development phase I need a temporary solution to simulate a response
 * W3schools onclick event - [https://www.w3schools.com/jsref/event_onclick.asp](https://www.w3schools.com/jsref/event_onclick.asp)
 
 ### Media
+The images used in this website sre from the following:
+
 * The image logo has been edited and from [Pixabay.com](https://pixabay.com/)
 * The photo images are taken by myself and copyright free
 
 ## Tools
+The tools used to carried out the development of this projract are:
+
 * Gitpod and Github
 * Image editor - Adobe Photoshop
 * Image file size optimiser - [tinypng.com](https://tinypng.com/)
@@ -317,5 +480,7 @@ During this development phase I need a temporary solution to simulate a response
 * WAVE Web Accessibility Evaluation Tool - [https://wave.webaim.org/](https://wave.webaim.org/)
 
 ## Acknowledgment
+I would like to thank the following to support the development of this website.
+
 * Learning Support - [Code Insititue](https://codeinstitute.net/)
 * Mentoring Support - [Daisy McGirr](https://github.com/Daisy-McG)
