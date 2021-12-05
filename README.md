@@ -22,9 +22,8 @@ For the initial phase of this project, the tours are only available for the 2022
 Click [here](https://kkwong44.github.io/cappadocia-tours/index.html) to access phase 1 project.
 
 Multi Device Website Mockup Generator
->
-<img src="assets/images/readme/mockup.png" alt="Screenshot Home Page" width="1200">
->
+
+![Screenshot Home Page](readme/mockup.png)
 
 ## User Experience Design
 
@@ -76,6 +75,7 @@ All pages have the same header.
 
 ### Footer
 All Pages have the same footer.
+
     * Contact details are on the left with an email link
     * Copyright in the centre
     * Find us on social media on the right
@@ -97,9 +97,8 @@ All Pages have the same footer.
     * 3 tours are available
     * An image and itineraries for each tour
     * Call to Action button on each tour to direct to reservation page
->
-<img src="assets/images/readme/screenshot-homepage.png" alt="Screenshot Home Page" width="400">
 
+![Screenshot Home Page](readme/screenshot-homepage.png)
 
 #### Responsive
     * When the screen width is below 1200px
@@ -120,12 +119,8 @@ All Pages have the same footer.
 ### Gallery Page
     * 12 images in the gallery
     * Each image can be enlarged when hover over the image
->
-<img src="assets/images/readme/screenshot-gallerypage.png" alt="Screenshot Home Page" width="400">
 
-
-<img src="assets/images/readme/screenshot-gallerypage-hover.png" alt="Screenshot Home Page" width="400">
-
+![Screenshot Gallery Page](readme/screenshot-gallerypage.png)
 
 #### Responsive
     * The screen width will determine number of columns
@@ -139,8 +134,8 @@ All Pages have the same footer.
     * Message will be display for missing or invalid data
     * All data can be reset to default values when Reset button is clicked
     * A message will be returned after the form is submitted
->
-<img src="assets/images/readme/screenshot-reservationpage.png" alt="Screenshot Home Page" width="400">
+
+![Screenshoot Reservation Page](readme/screenshot-reservationpage.png)
 
 #### Responsive
     * When the screen width is below 520px
@@ -180,13 +175,15 @@ There are 2 main test groups.
 The following report shows the final tests result that have been carried out.
 
 ### User Acceptance Testing Report
-<img src="assets/images/readme/test-report-page1.png" alt="Test Report Page 1" width="1200">
-<img src="assets/images/readme/test-report-page2.png" alt="Test Report Page 2" width="1200">
-<img src="assets/images/readme/test-report-page3.png" alt="Test Report Page 3" width="1200">
-<img src="assets/images/readme/test-report-page4.png" alt="Test Report Page 4" width="1200">
-<img src="assets/images/readme/test-report-page5.png" alt="Test Report Page 5" width="1200">
-<img src="assets/images/readme/test-report-page6.png" alt="Test Report Page 6" width="1200">
-<img src="assets/images/readme/test-report-page7.png" alt="Test Report Page 7" width="1200">
+![Test Report Page 1](readme/test-report-page1.png)
+![Test Report Page 2](readme/test-report-page2.png)
+![Test Report Page 3](readme/test-report-page3.png)
+![Test Report Page 4](readme/test-report-page4.png)
+![Test Report Page 5](readme/test-report-page5.png)
+![Test Report Page 6](readme/test-report-page6.png)
+![Test Report Page 7](readme/test-report-page7.png)
+![Test Report Page 8](readme/test-report-page8.png)
+![Test Report Page 9](readme/test-report-page9.png)
 
 ## Validator Testing
 Validator testing is used to validate codes that are legally written and to identify any possible errors. This can be done by using online automated testing tools to scan through the codes.
@@ -197,7 +194,33 @@ The tools used for this project are
 The code can be copied and paste directly into the validator to perform the test. A report will be generated with the test results where it identified the errors. The validator will show passed when the code is free of error.
 
 Although the site seems to be functioning correctly but during the initial validation test, it was identified that one of the ID name in the HTML was not unique and used in several places. This was rectified then the process repeated and passed the test.
-# INSERT TEST RESULTS HERE
+
+### Validation Reports
+The following reports show all HTML pages and CSS code have passed the test.
+
+Home Page - index.html
+
+![HTML Validation on Home Page](readme/validation-html-index.png)
+
+Gallery Page - gallery.html
+
+![HTML Validation on Gallery Page](readme/validation-html-gallery.png)
+
+Reservation Page - reservation.html
+
+![HTML Validation on Reservation Page](readme/validation-html-reservation.png)
+
+Confirmation Page - confirmation.html
+
+![HTML Validation on Confirmation Page](readme/validation-html-confirmation.png)
+
+Error 404 Page - 404.html
+
+![HTML Validation on Error 404 Page](readme/validation-html-404.png)
+
+Stylesheet - style.css
+
+![HTML Validation on Stylesheet](readme/validation-css.png)
 
 ## Performance and Accessibility Testing
 Lighthouse is a tool in Chrome Development Tools that allows developer to test their website. Performance and Accessibility are two of the tests carried out by Lighthouse and it can identify where you can improve the performance and accessibility.
@@ -207,9 +230,9 @@ The performance testing was carried out on the site and shows each page can be i
 From the lighthouse reports, it shows the site perform well on desktop and acceptable on mobile devices. I have physically tested the site on tablet and mobile phone and the performance seems to be normal and without lagging.
 
 # TEST RESULTS NEED TO BE UPDATED HERE
-<img src="assets/images/readme/performance-report-home.png" alt="Performance Report Home Page" width="1200">
-<img src="assets/images/readme/performance-report-gallery.png" alt="Performance Report Gallery Page" width="1200">
-<img src="assets/images/readme/performance-report-reservation.png" alt="Performance Report Reservation Page" width="1200">
+![Performance Report Home Page](readme/performance-report-home.png)
+![Performance Report Gallery Page](readme/performance-report-gallery.png)
+![Performance Report Reservation Page](readme/performance-report-reservation.png)
 
 ## Unfixed Bugs
 Currently, the reservation page is not fully developed. There is no backend to support the site and the submission of the form is only a simulation by returning an error message on the system.
@@ -242,8 +265,8 @@ At this stage performance issues on mobile devices is beyond my scope. In order 
 * Select Pages on the left hand side menu
 * Under the Source section, you need to select main from Branch in order to publish the site
 * You can suspend the published site by selecting none from the source section
->
-<img src="assets/images/readme/screenshot-github-page.png" alt="Github Pages" width="1200">
+
+![Github Pages](readme/screenshot-github-page.png)
 
 The live site for this project is published under [https://kkwong44.github.io/cappadocia-tours/](https://kkwong44.github.io/cappadocia-tours/)
 
