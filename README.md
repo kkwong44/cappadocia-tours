@@ -111,7 +111,7 @@ This section shows the company name, its image logo and a menu for navigate the 
     * An underline will be appeared under the menu item when hover and disappear when hover away
     * Underline always show under the menu item to indicate the current page
 
-Header on full desktop screen width
+Screenshot - Header on full desktop screen width
 
 ![Screenshot on Page Header](readme/screenshots/screenshot-header1.png)
 
@@ -123,7 +123,7 @@ The site is designed to response and give the best display on different screen w
     * When the screen width is below 900px, navigation menu will move to the left under the company name
     * Also, the font size on the navigation menu will be reduced
 
-Company Name and Logo Adjusted on Mobile Devices
+Screenshot - Company Name and Logo Adjusted on Mobile Devices
 
 ![Screenshot on Page Header](readme/screenshots/screenshot-header2.png)
 
@@ -142,7 +142,7 @@ The layout is separated in 3 sections, company contact details, follows the comp
     * Email client will be opened when clicked
     * A new window will be opened for each social media when clicked
 
-Footer on full desktop screen width
+Screenshot - Footer on full desktop screen width
 
 ![Screenshot on Page Footer](readme/screenshots/screenshot-footer1.png)
 
@@ -153,7 +153,7 @@ The site is designed to response and give the best display on different screen w
 
     * When the screen width is below 900px, the 3 sections will stack into a column
 
-Navigation Menu Adjusted on Mobile Devices
+Screenshot - Navigation Menu Adjusted on Mobile Devices
 
 ![Screenshot on Page Footer](readme/screenshots/screenshot-footer2.png)
 
@@ -162,23 +162,20 @@ Navigation Menu Adjusted on Mobile Devices
 
  This page is aim to attract the audience by displaying a hero image and offering them information about the region and tours. To help the user quickly to see the tours available, a button is available at the top inside the hero image.
 
-**Features on hero section**
-
+    Features on hero section
     * A hero Image
     * A cover text on the hero image
     * Call to Action button to the tours section
 
 ![Screenshot on Hero Section](readme/screenshots/screenshot-hero1.png)
 >
-**Features on about Cappadocia and Tours section**
-
+    Features on about Cappadocia and Tours section
     * About Discover Cappadocia section
     * About Company tours section
 
 ![Screenshot on About Region Section](readme/screenshots/screenshot-about-tours.png)
 >
-**Features on Guided Tours section**
-
+    Features on Guided Tours section
     * Guided Tours section
     * 3 tours are available
     * An image and itineraries for each tour
@@ -193,26 +190,29 @@ The site is designed to response and give the best display on different screen w
 
 **Features on Responsive**
 
-    * When the screen width is below 1200px
-        * Hero image - Container reduce height to 1/2
-        * Hero cover text - Fontsize and size reduce
-        * Hero CTA - Fontsize increase
+    When the screen width is below 1200px
+    * Hero image - Container reduce height to 1/2
+    * Hero cover text - Fontsize and size reduce
+    * Hero CTA - Fontsize increase
 >
-    * When the screen width is below 900px
-        * Use small hero image file
-        * Tours section - Display in a single column
+    When the screen width is below 900px
+    * Use small hero image file
+    * Tours section - Display in a single column
 >
-    * When the screen width is below 600px
-        * Hero image - Container reduce height to 1/3
-        * Hero cover text - Fontsize and size reduce further
-        * Hero CTA - Fontsize increase further
-        * Section titles - Fontsize reduce
+    When the screen width is below 600px
+    * Hero image - Container reduce height to 1/3
+    * Hero cover text - Fontsize and size reduce further
+    * Hero CTA - Fontsize increase further
+    * Section titles - Fontsize reduce
+>
+    When the screen width is below 360px
+    * Hero cover text - Fontsize and size reduce further
 
-Hero Image Section - Adjusted
+Screenshot - Hero Image Section, Adjusted
 
 ![Screenshot on Hero Section](readme/screenshots/screenshot-hero2.png)
 
-Guided Tours Section - Adjusted
+Screenshot - Guided Tours Section, Adjusted
 
 ![Screenshot on Tours](readme/screenshots/screenshot-tours2.png)
 
@@ -221,16 +221,15 @@ User can browse the tour images on this page. They can enlarge the image by hove
 
 The images are layout in a grid format and designed to encourage user to make reservation. An image enlargement feature is available to allow user a better viewing of the image.
 
-**Features on this page**
-
+    Features on this page
     * 12 images in the gallery
     * Each image can be enlarged when hover over the image
 
-Gallery Page - Full Screen
+Screenshot - Gallery Page in Full Screen
 
 ![Screenshot Gallery Page](readme/screenshots/screenshot-gallerypage1.png)
 
-Image Enlarged when Hover over the image
+Screenshot - Image Enlarged when Hover over the image
 
 ![Screenshot Gallery Page](readme/screenshots/screenshot-gallerypage-hover.png)
 
@@ -242,10 +241,10 @@ The site is designed to response and give the best display on different screen w
 **Features on Responsive**
 
     * The screen width will determine number of columns
-    * When the screen width is below 600px
-    * Image enlargement will be disabled
+    * Image enlargement will be disabled when the screen width is below 600px
+    * Image size will reduce when screen width is below 400px
 
-Gallery Page Ajusted to a Single Column on Mobile Device
+Screenshot - Gallery Page Ajusted to a Single Column on Mobile Device
 
 ![Screenshot Gallery Page](readme/screenshots/screenshot-gallerypage2.png)
 
@@ -254,8 +253,7 @@ User can fill in their information on this page and reserve the tour by submitti
 
 The data will be captured and used for post processing by the company.
 
-**Features on this page**
-
+    Features on this page
     * A reservation form can be filled and submitted to the company
     * All input fields except message are required
     * Each input field will be validated when submit button is clicked
@@ -263,13 +261,13 @@ The data will be captured and used for post processing by the company.
     * All data can be reset to default values when Reset button is clicked
     * A message will be returned after the form is submitted
 
-Error Message display after user click on the submit button
+Screenshot - Error Message display after user click on the submit button
 
 ![Screenshoot Error Message](readme/screenshots/screenshot-form1.png)
 
 **Confirmation Page is a simulated page to show the reservation has been received. This page is a duplicate of the reservation page but the input fields and buttons have been disabled. A link is offer the user to return to the tours section.**
 
-Confirmation Message display when form is successfully submitted
+Screenshot - Confirmation Message display when form is successfully submitted
 
 ![Screenshoot Confirmation Message](readme/screenshots/screenshot-confirmation.png)
 
@@ -280,16 +278,19 @@ The site is designed to response and give the best display on different screen w
 
 **Features on Responsive**
 
-    * When the screen width is below 520px
-        * The width of the Reservation Form will reduce
+    When the screen width is below 520px
+    * The width of the Reservation Form will reduce to fit screen
 
-Reservation Form Ajusted on Mobile Devices
+    When the screen width is below 400px
+    * The width of the Reservation Form will reduce further to fit screen
+
+Screenshot - Reservation Form Ajusted on Mobile Devices
 
 ![Screenshoot Reservation Page](readme/screenshots/screenshot-reservationpage2.png)
 
 ## Future Features
 ### Home Page
-    * The tour selected from the Call to Action button will automatically set as default in the reservation form
+    * Automatically select the correct tour radio button from the Call to Action button
     * More tours will be added to this page but need to extend to other pages for performance issues
     * Information and tours need to be maintained and updated efficiently
 
@@ -462,7 +463,7 @@ During this development phase I need a temporary solution to simulate a response
 * W3schools onclick event - [https://www.w3schools.com/jsref/event_onclick.asp](https://www.w3schools.com/jsref/event_onclick.asp)
 
 ### Media
-The images used in this website sre from the following:
+The images used in this website are from the following:
 
 * The image logo has been edited and from [Pixabay.com](https://pixabay.com/)
 * The photo images are taken by myself and copyright free
