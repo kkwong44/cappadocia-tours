@@ -1,5 +1,4 @@
-# Cappadocia Tours <img src="assets/images/home-logo.png" alt="" width="35">
-
+# Cappadocia Tours ![Logo](readme/logo-small.png)
 Cappadocia Tour is a company offer local guided tours in the Cappadocia region in Turkey.
 
 ## Objectives
@@ -56,7 +55,7 @@ Main components of this page:
 * Show the available tours and its itineraries
 * To make reservation when click on the reserve button
 
-Screenshot - Home Page in Full
+*Screenshot - Home Page in Full*
 
 ![Screenshot Home Page](readme/screenshots/screenshot-homepage.png)
 
@@ -70,7 +69,7 @@ Main components of this page:
 * The images are display in a grid format
 * Each image can be enlarge when hover on large screen devices
 
-Screenshot - Gallery Page in Full
+*Screenshot - Gallery Page in Full*
 
 ![Screenshot Gallery Page](readme/screenshots/screenshot-gallerypage.png)
 
@@ -85,7 +84,7 @@ Main components of this page:
 * The input fields will be validated when the submit button is click
 * A reset button is available to the user to reset the form with the default values
 
-Screenshot - Reservation Page in Full
+*Screenshot - Reservation Page in Full*
 
 ![Screenshoot Reservation Page](readme/screenshots/screenshot-reservationpage.png)
 
@@ -104,14 +103,14 @@ The header contents allow user to navigate the site.
 
 This section shows the company name, its image logo and a menu for navigate the site.
 
-    Features of this section:
+    Features on this section:
     * Company Name on the left as part of the logo
     * An image of the logo next to the company name
     * A navigation menu on the right with links to Home page, Gallery page and Reservation page
     * An underline will be appeared under the menu item when hover and disappear when hover away
     * Underline always show under the menu item to indicate the current page
 
-Screenshot - Header on full desktop screen width
+*Screenshot - Header on full desktop screen width*
 
 ![Screenshot on Page Header](readme/screenshots/screenshot-header1.png)
 
@@ -123,7 +122,7 @@ The site is designed to response and give the best display on different screen w
     * When the screen width is below 900px, navigation menu will move to the left under the company name
     * Also, the font size on the navigation menu will be reduced
 
-Screenshot - Company Name and Logo Adjusted on Mobile Devices
+*Screenshot - Company Name and Logo Adjusted on Mobile Devices*
 
 ![Screenshot on Page Header](readme/screenshots/screenshot-header2.png)
 
@@ -134,7 +133,7 @@ The footer section allows the user find out more information about the company.
 
 The layout is separated in 3 sections, company contact details, follows the company in social media and the copyright statement.
 
-    Features of this section:
+    Features on this section:
     * Contact details are on the left with an email link
     * Copyright in the centre
     * Find us on social media on the right
@@ -142,7 +141,7 @@ The layout is separated in 3 sections, company contact details, follows the comp
     * Email client will be opened when clicked
     * A new window will be opened for each social media when clicked
 
-Screenshot - Footer on full desktop screen width
+*Screenshot - Footer on full desktop screen width*
 
 ![Screenshot on Page Footer](readme/screenshots/screenshot-footer1.png)
 
@@ -153,7 +152,7 @@ The site is designed to response and give the best display on different screen w
 
     * When the screen width is below 900px, the 3 sections will stack into a column
 
-Screenshot - Navigation Menu Adjusted on Mobile Devices
+*Screenshot - Navigation Menu Adjusted on Mobile Devices*
 
 ![Screenshot on Page Footer](readme/screenshots/screenshot-footer2.png)
 
@@ -168,13 +167,13 @@ Screenshot - Navigation Menu Adjusted on Mobile Devices
     * Call to Action button to the tours section
 
 ![Screenshot on Hero Section](readme/screenshots/screenshot-hero1.png)
->
+
     Features on about Cappadocia and Tours section
     * About Discover Cappadocia section
     * About Company tours section
 
 ![Screenshot on About Region Section](readme/screenshots/screenshot-about-tours.png)
->
+
     Features on Guided Tours section
     * Guided Tours section
     * 3 tours are available
@@ -208,11 +207,11 @@ The site is designed to response and give the best display on different screen w
     When the screen width is below 360px
     * Hero cover text - Fontsize and size reduce further
 
-Screenshot - Hero Image Section, Adjusted
+*Screenshot - Hero Image Section, Adjusted*
 
 ![Screenshot on Hero Section](readme/screenshots/screenshot-hero2.png)
 
-Screenshot - Guided Tours Section, Adjusted
+*Screenshot - Guided Tours Section, Adjusted*
 
 ![Screenshot on Tours](readme/screenshots/screenshot-tours2.png)
 
@@ -225,11 +224,11 @@ The images are layout in a grid format and designed to encourage user to make re
     * 12 images in the gallery
     * Each image can be enlarged when hover over the image
 
-Screenshot - Gallery Page in Full Screen
+*Screenshot - Gallery Page in Full Screen*
 
 ![Screenshot Gallery Page](readme/screenshots/screenshot-gallerypage1.png)
 
-Screenshot - Image Enlarged when Hover over the image
+*Screenshot - Image Enlarged when Hover over the image*
 
 ![Screenshot Gallery Page](readme/screenshots/screenshot-gallerypage-hover.png)
 
@@ -244,7 +243,7 @@ The site is designed to response and give the best display on different screen w
     * Image enlargement will be disabled when the screen width is below 600px
     * Image size will reduce when screen width is below 400px
 
-Screenshot - Gallery Page Ajusted to a Single Column on Mobile Device
+*Screenshot - Gallery Page Ajusted to a Single Column on Mobile Device*
 
 ![Screenshot Gallery Page](readme/screenshots/screenshot-gallerypage2.png)
 
@@ -261,13 +260,13 @@ The data will be captured and used for post processing by the company.
     * All data can be reset to default values when Reset button is clicked
     * A message will be returned after the form is submitted
 
-Screenshot - Error Message display after user click on the submit button
+*Screenshot - Error Message display after user click on the submit button*
 
 ![Screenshoot Error Message](readme/screenshots/screenshot-form1.png)
 
-**Confirmation Page is a simulated page to show the reservation has been received. This page is a duplicate of the reservation page but the input fields and buttons have been disabled. A link is offer the user to return to the tours section.**
+***Confirmation Page is a simulated page to show the reservation has been received. This page is a duplicate of the reservation page but the input fields and buttons have been disabled. A link is offer the user to return to the tours section.***
 
-Screenshot - Confirmation Message display when form is successfully submitted
+*Screenshot - Confirmation Message display when form is successfully submitted*
 
 ![Screenshoot Confirmation Message](readme/screenshots/screenshot-confirmation.png)
 
@@ -284,13 +283,19 @@ The site is designed to response and give the best display on different screen w
     When the screen width is below 400px
     * The width of the Reservation Form will reduce further to fit screen
 
-Screenshot - Reservation Form Ajusted on Mobile Devices
+*Screenshot - Reservation Form Ajusted on Mobile Devices*
 
 ![Screenshoot Reservation Page](readme/screenshots/screenshot-reservationpage2.png)
 
 ## Future Features
+The following features need to be added in the future to create a fully functional website. Simplify the processes for returning customers and the maintenance of the site.
+
+### General
+    * Create a login page for both new and returning customers
+    * Implement security on user and payment data
+
 ### Home Page
-    * Automatically select the correct tour radio button from the Call to Action button
+    * Automatically set the correct tour radio button from the Call to Action button
     * More tours will be added to this page but need to extend to other pages for performance issues
     * Information and tours need to be maintained and updated efficiently
 
@@ -319,9 +324,10 @@ There are 2 main test groups.
 * Functional testing on each page
 * Responsive testing on multiple devices
 
+### User Acceptance Testing Report
+
 The following report shows the final tests result that have been carried out.
 
-### User Acceptance Testing Report
 ![Test Report Page 1](readme/test-reports/test-report-page1.png)
 ![Test Report Page 2](readme/test-reports/test-report-page2.png)
 ![Test Report Page 3](readme/test-reports/test-report-page3.png)
@@ -332,7 +338,7 @@ The following report shows the final tests result that have been carried out.
 ![Test Report Page 8](readme/test-reports/test-report-page8.png)
 ![Test Report Page 9](readme/test-reports/test-report-page9.png)
 
-Screenshot - Error 404 Page not Found
+*Screenshot - Error 404 Page not Found*
 
 ![Screenshot on Error 404 Page](readme/screenshots/screenshot-404.png)
 
@@ -349,27 +355,27 @@ Although the site seems to be functioning correctly but during the initial valid
 ### Validation Reports
 The following reports show all HTML pages and CSS code have passed the test.
 
-Home Page - index.html
+*Home Page - index.html*
 
 ![HTML Validation on Home Page](readme/test-reports/validation-html-index.png)
 
-Gallery Page - gallery.html
+*Gallery Page - gallery.html*
 
 ![HTML Validation on Gallery Page](readme/test-reports/validation-html-gallery.png)
 
-Reservation Page - reservation.html
+*Reservation Page - reservation.html*
 
 ![HTML Validation on Reservation Page](readme/test-reports/validation-html-reservation.png)
 
-Confirmation Page - confirmation.html
+*Confirmation Page - confirmation.html*
 
 ![HTML Validation on Confirmation Page](readme/test-reports/validation-html-confirmation.png)
 
-Error 404 Page - 404.html
+*Error 404 Page - 404.html*
 
 ![HTML Validation on Error 404 Page](readme/test-reports/validation-html-404.png)
 
-Stylesheet - style.css
+*Stylesheet - style.css*
 
 ![HTML Validation on Stylesheet](readme/test-reports/validation-css.png)
 
@@ -378,21 +384,23 @@ Lighthouse is a tool in Chrome Development Tools that allows developer to test t
 
 The performance testing was carried out on the site and shows each page can be improved on the images that were used. There were several attempts to improve the performance by reducing dimensions, file sizes and file formats. The test cycle was repeated on each attempt and the final version was to use the minimum dimensions on each image, convert into Webp from Jpg format and optimize the file size by using image optimiser tool.
 
+All images are optimsed, uploaded and use in the live site.
+
 From the lighthouse reports at below, it shows the site perform well. The site was physically tested on several devices from desktops, tablets and mobile phones. The performance on these devices were operated normally and without lagging.
 
-Lighthouse Report on index.html
+*Lighthouse Report on index.html*
 
 ![Performance Report Home Page](readme/test-reports/performance-report-home.png)
 
-Lighthouse Report on gallery.html
+*Lighthouse Report on gallery.html*
 
 ![Performance Report Gallery Page](readme/test-reports/performance-report-gallery.png)
 
-Lighthouse Report on reservation.html
+*Lighthouse Report on reservation.html*
 
 ![Performance Report Reservation Page](readme/test-reports/performance-report-reservation.png)
 
-Lighthouse Report on confirmation.html
+*Lighthouse Report on confirmation.html*
 
 ![Performance Report Confirmation Page](readme/test-reports/performance-report-confirmation.png)
 
@@ -430,7 +438,7 @@ The validation and implementation to the backend is out of this project scope bu
 
 The live site for this project is published under [https://kkwong44.github.io/cappadocia-tours/](https://kkwong44.github.io/cappadocia-tours/)
 
-**You can use GitHub Desktop to clone and fork repositories that exist on GitHub.**
+***You can use GitHub Desktop to clone and fork repositories that exist on GitHub.***
 
 Click [here](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop) for more information on Cloning and forking repositories from GitHub Desktop.
 
@@ -447,6 +455,10 @@ The information and description of Cappadocia tours are from the following websi
 The footer icons for the Social Media are from:
 
 * Font Awesome website - [https://fontawesome.com/](https://fontawesome.com/)
+
+Website favicon was generated from:
+
+* favicon - [https://favicon.io/](https://favicon.io/)
 
 The image zoom technique is based on the example from:
 
