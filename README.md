@@ -166,11 +166,17 @@ The site is designed to response and give the best display on different screen w
     * A cover text on the hero image
     * Call to Action button to the tours section
 
+*Screenshot - Hero Section*
+
+
 ![Screenshot on Hero Section](readme/screenshots/screenshot-hero1.png)
 
     Features on about Cappadocia and Tours section
     * About Discover Cappadocia section
     * About Company tours section
+
+
+*Screenshot - About Discovery and Tours Sections*
 
 ![Screenshot on About Region Section](readme/screenshots/screenshot-about-tours.png)
 
@@ -179,6 +185,9 @@ The site is designed to response and give the best display on different screen w
     * 3 tours are available
     * An image and itineraries for each tour
     * Call to Action button on each tour to direct to reservation page
+
+
+*Screenshot - Guided Tours on Offer*
 
 ![Screenshots on Tours](readme/screenshots/screenshot-tours1.png)
 
@@ -194,7 +203,7 @@ The site is designed to response and give the best display on different screen w
     * Hero cover text - Fontsize and size reduce
     * Hero CTA - Fontsize increase
 >
-    When the screen width is below 900px
+    When the screen width is below 844px
     * Use small hero image file
     * Tours section - Display in a single column
 >
@@ -203,6 +212,10 @@ The site is designed to response and give the best display on different screen w
     * Hero cover text - Fontsize and size reduce further
     * Hero CTA - Fontsize increase further
     * Section titles - Fontsize reduce
+>
+    When the screen width is below 400px
+    * Hero cover text - Fontsize and size reduce further
+    * Hero CTA - Fontsize increase further
 >
     When the screen width is below 360px
     * Hero cover text - Fontsize and size reduce further
@@ -433,6 +446,9 @@ The validation and implementation to the backend is out of this project scope bu
 * Select Pages on the left hand side menu
 * Under the Source section, you need to select main from Branch in order to publish the site
 * You can suspend the published site by selecting none from the source section
+
+
+*Screenshot - Github Pages*
 
 ![Github Pages](readme/screenshots/screenshot-github-page.png)
 
