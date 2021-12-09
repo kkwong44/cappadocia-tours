@@ -750,6 +750,12 @@ h3 {
     .form-row {
         width: 298px
     }
+
+    /* Home Page - Adjust Button Size on Choose Your Tour */
+    .tour-button-cta {
+        padding: 8px 6px 8px 6px;
+        font-size: 60%;
+    }
 }
 
 /* Media Query - Display width below 360px */
@@ -784,11 +790,5 @@ h3 {
         font-size: 80%;
         width: 300px;
         height: 28px;
-    }
-
-    /* Home Page - Adjust Button Size on Choose Your Tour */
-    .tour-button-cta {
-        padding: 8px 6px 8px 6px;
-        font-size: 60%;
     }
 }
