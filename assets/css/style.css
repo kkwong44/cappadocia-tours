@@ -643,6 +643,12 @@ h3 {
 /* Media Query - Display width below 600px */
 @media (max-width: 600px) {
 
+    /* Header, Adjust left margin on Company Name and Navigation Menu - All Pages */
+    #logo,
+    #nav {
+        margin-left: 15px;
+    }
+
     /* Home Page - Adjust Heading Size */
     #discover-cappadocia,
     #guided-tours {
