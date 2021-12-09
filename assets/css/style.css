@@ -541,7 +541,7 @@ h3 {
 
 /* MEDIA QUERIES */
 
-/* Media Query - Display width below 1200px */
+/* Media Query - Display width below 1201px */
 @media (max-width: 1200px) {
 
     /* Home Page - Adjust Hero Image Section */
@@ -563,7 +563,7 @@ h3 {
     }
 }
 
-/* Media Query - Display width above 884px */
+/* Media Query - Display width above 883px */
 @media (min-width: 884px) {
 
     /* Home Page - Guided Tours into Columns */
@@ -604,7 +604,7 @@ h3 {
     }
 }
 
-/* Media Query - Display width below 883px */
+/* Media Query - Display width below 884px */
 @media (max-width: 883px) {
 
     /* Home Page - Use Smaller Hero Image */
@@ -626,7 +626,7 @@ h3 {
     }
 }
 
-/* Media Query - Display width above 600px */
+/* Media Query - Display width above 599px */
 @media (min-width: 600px) {
 
     /* Gallery Page - Enable Image Animation */
@@ -640,7 +640,7 @@ h3 {
     }
 }
 
-/* Media Query - Display width below 600px */
+/* Media Query - Display width below 601px */
 @media (max-width: 600px) {
 
     /* Header, Adjust left margin on Company Name and Navigation Menu - All Pages */
@@ -674,7 +674,7 @@ h3 {
     }
 }
 
-/* Media Query - Display width below 520px */
+/* Media Query - Display width below 521px */
 @media (max-width: 520px) {
 
     /* Header, Adjust Company Name - All Pages */
@@ -732,7 +732,7 @@ h3 {
     }
 }
 
-/* Media Query - Display width below 400px */
+/* Media Query - Display width below 401px */
 @media (max-width: 400px) {
 
     /* Gallery Page - Adjust Image Canvas Size */
@@ -771,7 +771,7 @@ h3 {
     }
 }
 
-/* Media Query - Display width below 360px */
+/* Media Query - Display width below 361px */
 @media (max-width: 360px) {
 
     /* Header, Adjust Company Name - All Pages */
