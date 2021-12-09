@@ -563,8 +563,8 @@ h3 {
     }
 }
 
-/* Media Query - Display width above 900px */
-@media (min-width: 900px) {
+/* Media Query - Display width above 884px */
+@media (min-width: 884px) {
 
     /* Home Page - Guided Tours into Columns */
     .tours-flex-container {
