@@ -751,6 +751,13 @@ h3 {
         width: 298px
     }
 
+    /* Home Page - Adjust Cover Text */
+    #hero-cover-text {
+        font-size: 90%;
+        width: 325px;
+        height: 28px;
+    }    
+
     /* Home Page - Adjust Button Size on Choose Your Tour */
     .tour-button-cta {
         padding: 8px 6px 8px 6px;
