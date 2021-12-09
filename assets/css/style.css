@@ -604,8 +604,8 @@ h3 {
     }
 }
 
-/* Media Query - Display width below 900px */
-@media (max-width: 900px) {
+/* Media Query - Display width below 883px */
+@media (max-width: 883px) {
 
     /* Home Page - Use Smaller Hero Image */
     #hero-image {
