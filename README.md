@@ -1,6 +1,14 @@
 # Cappadocia Tours ![Logo](readme/images/logo-small.png)
 Cappadocia Tour is a company offer local guided tours in the Cappadocia region in Turkey.
 
+Click [here](https://kkwong44.github.io/cappadocia-tours/index.html) to access live site.
+
+The initial phase of this project was completed, published and shared in Github.
+
+*Screenshot - Mockup on Cappadocia Tours Website, generated from [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/index.php)*
+
+![Screenshot on Mockup](readme/screenshots/mockup.png)
+
 ## Objectives
 
 The Company would like to expand their business model by introducing an online reservation booking system to their business. The site will offer the available tours to the tourists in the region and allow them to make reservation.
@@ -18,11 +26,10 @@ For the initial phase of this project, the tours are only available for the 2022
 * Gain information about the region
 * Check and reserve tours in the region
 
-## Design and Results
+## User Experience Design
 
-### Initial Design 
-
-Based on the objectives, wireframes of the site were designed as shown below:
+### Initial Design
+Based on the objectives, wireframes were used to create the initial design of the site. The following are the basic structures of the three pages.
 
 *Wireframe - Home Page*
 
@@ -36,29 +43,21 @@ Based on the objectives, wireframes of the site were designed as shown below:
 
 ![Wireframe on Reservation Page](readme/images/wireframe-reservation.png)
 
-### Live website
+From the initial design it shows that the site can be broken down into 4 main areas.
 
-The initial phase of this project was completed and the live site has been published and shared in Github.
+1. Common Components section that apply to all pages
+2. Home Page that provides information about the region and tours
+3. Gallery Page that provide images captured from the tours around the region
+4. Reservation Page that allows user to make reservation on a tour
 
-Click [here](https://kkwong44.github.io/cappadocia-tours/index.html) to access live site.
-
-Below is a mockup of the Cappadocia website generated from [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/index.php)
-
-*Screenshot - Mockup on Cappadocia Tours Website*
-
-![Screenshot on Mockup](readme/screenshots/mockup.png)
-
-
-## User Experience Design
-
-### General
+### Common Components
 There are three pages on this website for the user to explore. It allows the user to find out about the region, the tours available, browse images in the gallery and make reservation.
 
 The design of this website is to give as much information as possible to the user about the region and the contents of the tours. Also, it provides a gallery that show images related to the tours and encourage the user to make a reservation.
 
-Below are main components of the website:
+Below are common components across the website:
 * All pages contain a logo "Cappadocia Tours", an image logo and a navigation menu at the top of the page
-* The site will be directed to the home page when the user click on the logo or the image logo
+* The site will be directed to the home page when the user clicks on the logo or the image logo
 * Navigation menu consist of links to the Home page, Gallery Page and Reservation Page
 * User can navigate to these pages by clicking on these links
 * All Pages contain a footer. It has 3 section, Contact us with an email link, Copyright and links to Find us on Social Media
@@ -90,7 +89,7 @@ The idea of this page is to encourage the user to visit the region.
 Main components of this page:
 * This page shows images from the region
 * The images are display in a grid format
-* Each image can be enlarge when hover on large screen devices
+* Each image can be enlarged when hover on large screen devices
 
 *Screenshot - Gallery Page in Full*
 
@@ -142,7 +141,7 @@ User can access to site via different devices.
 
 The site is designed to response and give the best display on different screen width.
 
-    * When the screen width is below 900px, navigation menu will move to the left under the company name
+    * When the screen width is below 884px, navigation menu will move to the left under the company name
     * Also, the font size on the navigation menu will be reduced
 
 *Screenshot - Company Name and Logo Adjusted on Mobile Devices*
@@ -173,7 +172,7 @@ User can access to site via different devices.
 
 The site is designed to response and give the best display on different screen width.
 
-    * When the screen width is below 900px, the 3 sections will stack into a column
+    * When the screen width is below 884px, the 3 sections will stack into a column
 
 *Screenshot - Navigation Menu Adjusted on Mobile Devices*
 
@@ -279,7 +278,7 @@ The site is designed to response and give the best display on different screen w
     * Image enlargement will be disabled when the screen width is below 600px
     * Image size will reduce when screen width is below 400px
 
-*Screenshot - Gallery Page Ajusted to a Single Column on Mobile Device*
+*Screenshot - Gallery Page Adjusted to a Single Column on Mobile Device*
 
 ![Screenshot Gallery Page](readme/screenshots/screenshot-gallerypage2.png)
 
@@ -300,7 +299,7 @@ The data will be captured and used for post processing by the company.
 
 ![Screenshoot Error Message](readme/screenshots/screenshot-form1.png)
 
-***Confirmation Page is a simulated page to show the reservation has been received. This page is a duplicate of the reservation page but the input fields and buttons have been disabled. A link is offer the user to return to the tours section.***
+***Confirmation Page is a simulated page to show the reservation has been received. This page is a duplicate of the reservation page but the input fields and buttons have been disabled. An additional link is available to the user for returning to the tours section.***
 
 *Screenshot - Confirmation Message display when form is successfully submitted*
 
@@ -319,33 +318,33 @@ The site is designed to response and give the best display on different screen w
     When the screen width is below 400px
     * The width of the Reservation Form will reduce further to fit screen
 
-*Screenshot - Reservation Form Ajusted on Mobile Devices*
+*Screenshot - Reservation Form Adjusted on Mobile Devices*
 
 ![Screenshoot Reservation Page](readme/screenshots/screenshot-reservationpage2.png)
 
 ## Future Features
-The following features need to be added in the future to create a fully functional website. Simplify the processes for returning customers and the maintenance of the site.
+The following features need to be added in the future to create a fully functional website. The main attention is to simplify the processes for returning customers and the maintenance of the site.
 
 ### General
     * Create a login page for both new and returning customers
     * Implement security on user and payment data
 
 ### Home Page
-    * Automatically set the correct tour radio button from the Call to Action button
-    * More tours will be added to this page but need to extend to other pages for performance issues
+    * Automatically set the correct tour radio button on the reservation form from the Call to Action button
+    * More tours will be added to this page but need to extend to other pages to overcome performance issues
     * Information and tours need to be maintained and updated efficiently
 
 ### Gallery Page
     * More images can be added to this page
-    * For performance issues, the gallery my need to extend to additional pages
+    * For performance, the gallery may need to extend to additional pages
     * Images need to be maintained and updated efficiently
 
 ### Reservation Page
-    * Date need to be beyond the current system date
+    * Date only accepted beyond the current system date
     * Show available dates for each tour
     * Show available seats for each tour
     * Reservation fee is required and process credit card transaction
-    * Confirmation email when reservation successfully processed
+    * Confirmation email to user when reservation successfully processed
     * Payment and tour confirmation will be sent out after the reservation has been carried out successfully
 
 ## Functional Testing
@@ -420,7 +419,7 @@ Lighthouse is a tool in Chrome Development Tools that allows developer to test t
 
 The performance testing was carried out on the site and shows each page can be improved on the images that were used. There were several attempts to improve the performance by reducing dimensions, file sizes and file formats. The test cycle was repeated on each attempt and the final version was to use the minimum dimensions on each image, convert into Webp from Jpg format and optimize the file size by using image optimiser tool.
 
-All images are optimsed, uploaded and use in the live site.
+All images are optimised, uploaded and use in the live site.
 
 From the lighthouse reports at below, it shows the site perform well. The site was physically tested on several devices from desktops, tablets and mobile phones. The performance on these devices were operated normally and without lagging.
 
@@ -441,20 +440,20 @@ From the lighthouse reports at below, it shows the site perform well. The site w
 ![Performance Report Confirmation Page](readme/test-reports/performance-report-confirmation.png)
 
 ## Unfixed Bugs
-Currently, the reservation page is not fully developed. There is no backend to support the site and the submission of the form is only a simulated by returning a Reservation Received message.
+Currently, the reservation page is not fully developed. There is no backend to support the site and the submission of the form is only simulated by returning a Reservation Received message.
 
 The validation and implementation to the backend is out of this project scope but it can be developed in future to become a fully operational website.
 
 ## Deployment
 ### Tools
 * GitHub is a code hosting platform for version control and collaboration
-* Gitpod is a ready-to-code developer environments
+* Gitpod is a ready-to-code developer environment
 
 ### Development processes
 
 * All the development works are carried out in Gitpod
 * Create a repository in Github through Gitpod
-* Start the project from a boilerplate written by Code Insititue. The full template can be copied from [here](https://github.com/Code-Institute-Org/gitpod-full-template)
+* Start the project from a boilerplate written by Code Institue. The full template can be copied from [here](https://github.com/Code-Institute-Org/gitpod-full-template)
 
     **Repeat the following until project completion**
 
@@ -524,7 +523,7 @@ The images used in this website are from the following:
 * The photo images are taken by myself and copyright free
 
 ## Tools
-The tools used to carried out the development of this projract are:
+The tools used to carry out the development on this project are:
 
 * Gitpod and Github
 * Image editor - Adobe Photoshop
@@ -538,5 +537,5 @@ The tools used to carried out the development of this projract are:
 ## Acknowledgment
 I would like to thank the following to support the development of this website.
 
-* Learning Support - [Code Insititue](https://codeinstitute.net/)
+* Learning Support - [Code Institute](https://codeinstitute.net/)
 * Mentoring Support - [Daisy McGirr](https://github.com/Daisy-McG)
