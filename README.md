@@ -1,4 +1,4 @@
-# Cappadocia Tours ![Logo](readme/logo-small.png)
+# Cappadocia Tours ![Logo](readme/images/logo-small.png)
 Cappadocia Tour is a company offer local guided tours in the Cappadocia region in Turkey.
 
 ## Objectives
@@ -18,13 +18,36 @@ For the initial phase of this project, the tours are only available for the 2022
 * Gain information about the region
 * Check and reserve tours in the region
 
-Click [here](https://kkwong44.github.io/cappadocia-tours/index.html) to access phase 1 project.
+## Design and Result
 
-**Multi Device Website Mockup Generator**
+### Initial Design 
 
-Below is a mockup of the Cappadocia website generated from an online tool. 
+Based on the objectives, wireframes of the site were designed as shown below:
+
+*Wireframe - Home Page*
+
+![Wireframe on Home Page](readme/images/wireframe-home.png)
+
+*Wireframe - Gallery Page*
+
+![Wireframe on Gallery Page](readme/images/wireframe-gallery.png)
+
+*Wireframe - Reservation Page*
+
+![Wireframe on Reservation Page](readme/images/wireframe-reservation.png)
+
+### Live website
+
+The initial phase of this project was completed and the live site has been published and shared in Github.
+
+Click [here](https://kkwong44.github.io/cappadocia-tours/index.html) to access live site.
+
+Below is a mockup of the Cappadocia website generated from [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/index.php)
+
+*Screenshot - Mockup on Cappadocia Tours Website*
 
 ![Screenshot on Mockup](readme/screenshots/mockup.png)
+
 
 ## User Experience Design
 
@@ -438,15 +461,19 @@ The validation and implementation to the backend is out of this project scope bu
 * Developing your site, save your project in your Gitpod workspaces
 * Use git add command to add files to local repository
 * Use git commit command to commit the changes to local repository
-* Use git push to upload local repository content to a remote repository
 
-    **After git push is carried out, a site link can be found from your Github repository setting.**
+### Deployment to Github Pages
+
+* Use git push to upload local repository content (Gitpod) to a remote repository (Github)
+
+    **The published site link can be found from your Github repository setting.**
 
 * Select setting from your github repository
-* Select Pages on the left hand side menu
+* Select Pages on the left hand side menu as shown below
 * Under the Source section, you need to select main from Branch in order to publish the site
-* You can suspend the published site by selecting none from the source section
+* You can suspend the published site by selecting none from Branch in the source section
 
+In order to commit the changes in the live site, always perform git push to upload the latest version of the development code to the remote repository.
 
 *Screenshot - Github Pages*
 
