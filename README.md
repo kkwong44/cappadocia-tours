@@ -322,6 +322,15 @@ The site is designed to response and give the best display on different screen w
 
 ![Screenshoot Reservation Page](readme/screenshots/screenshot-reservationpage2.png)
 
+### Customised Error 404 Page
+User will see a customised page for Error 404 when a page is not found and allow to return back to the home page.
+
+The customised page enables the user to report the error and offer a link to redirect back to the home page.
+
+*Screenshot - Error 404 Page not Found*
+
+![Screenshot on Error 404 Page](readme/screenshots/screenshot-404.png)
+
 ## Future Features
 The following features need to be added in the future to create a fully functional website. The main attention is to simplify the processes for returning customers and the maintenance of the site.
 
@@ -372,10 +381,6 @@ The following report shows the final tests result that have been carried out.
 ![Test Report Page 7](readme/test-reports/test-report-page7.png)
 ![Test Report Page 8](readme/test-reports/test-report-page8.png)
 ![Test Report Page 9](readme/test-reports/test-report-page9.png)
-
-*Screenshot - Error 404 Page not Found*
-
-![Screenshot on Error 404 Page](readme/screenshots/screenshot-404.png)
 
 ## Validator Testing
 Validator testing is used to validate codes that are legally written and to identify any possible errors. This can be done by using online automated testing tools to scan through the codes.
