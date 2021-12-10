@@ -18,7 +18,7 @@ For the initial phase of this project, the tours are only available for the 2022
 * Gain information about the region
 * Check and reserve tours in the region
 
-## Design and Result
+## Design and Results
 
 ### Initial Design 
 
@@ -473,7 +473,7 @@ The validation and implementation to the backend is out of this project scope bu
 * Under the Source section, you need to select main from Branch in order to publish the site
 * You can suspend the published site by selecting none from Branch in the source section
 
-In order to commit the changes in the live site, always perform git push to upload the latest version of the development code to the remote repository.
+In order to commit any new changes to the live site, always perform git push to upload the latest version of the development code to the remote repository.
 
 *Screenshot - Github Pages*
 
