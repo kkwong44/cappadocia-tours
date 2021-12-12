@@ -9,6 +9,8 @@ The initial phase of this project was completed, published and shared in Github.
 
 ![Screenshot on Mockup](readme/screenshots/mockup.png)
 
+___
+
 ## Objectives
 
 The Company would like to expand their business model by introducing an online reservation booking system to their business. The site will offer the available tours to the tourists in the region and allow them to make reservation.
@@ -25,6 +27,8 @@ For the initial phase of this project, the tours are only available for the 2022
 ### User Goals
 * Gain information about the region
 * Check and reserve tours in the region
+
+___
 
 ## User Experience Design
 
@@ -43,12 +47,13 @@ Based on the objectives, wireframes were used to create the initial design of th
 
 ![Wireframe on Reservation Page](readme/images/wireframe-reservation.png)
 
-From the initial design it shows that the site can be broken down into 4 main areas.
+From the initial design it shows that the site can be broken down into 5 main areas.
 
 1. Common Components section that apply to all pages
 2. Home Page that provides information about the region and tours
 3. Gallery Page that provide images captured from the tours around the region
 4. Reservation Page that allows user to make reservation on a tour
+5. Responsive and Accessibility need to be considered in the design.
 
 ### Common Components
 There are three pages on this website for the user to explore. It allows the user to find out about the region, the tours available, browse images in the gallery and make reservation.
@@ -60,7 +65,7 @@ Below are common components across the website:
 * The site will be directed to the home page when the user clicks on the logo or the image logo
 * Navigation menu consist of links to the Home page, Gallery Page and Reservation Page
 * User can navigate to these pages by clicking on these links
-* All Pages contain a footer. It has 3 section, Contact us with an email link, Copyright and links to Find us on Social Media
+* All Pages contain a footer. It has 3 sections, Contact us with an email link, Copyright and links to Find us on Social Media
 * When the email link is clicked. Local email client will be opened with an address to cappadocia tours
 * Each social media link will be opened in a new window when its clicked
 
@@ -108,13 +113,15 @@ Main components of this page:
 
 *Screenshot - Reservation Page in Full*
 
-![Screenshoot Reservation Page](readme/screenshots/screenshot-reservationpage.png)
+![Screenshot Reservation Page](readme/screenshots/screenshot-reservationpage.png)
 
 ### Responsive and Accessibility
 The website has been developed to be used by as many users as possible and as many devices as possible.
 
 * The site is aim to all devices
 * Accessibility has been incorporated into the design
+
+___
 
 ## Features
 
@@ -190,13 +197,11 @@ The site is designed to response and give the best display on different screen w
 
 *Screenshot - Hero Section*
 
-
 ![Screenshot on Hero Section](readme/screenshots/screenshot-hero1.png)
 
     Features on about Cappadocia and Tours section
     * About Discover Cappadocia section
     * About Company tours section
-
 
 *Screenshot - About Discovery and Tours Sections*
 
@@ -207,7 +212,6 @@ The site is designed to response and give the best display on different screen w
     * 3 tours are available
     * An image and itineraries for each tour
     * Call to Action button on each tour to direct to reservation page
-
 
 *Screenshot - Guided Tours on Offer*
 
@@ -297,13 +301,13 @@ The data will be captured and used for post processing by the company.
 
 *Screenshot - Error Message display after user click on the submit button*
 
-![Screenshoot Error Message](readme/screenshots/screenshot-form1.png)
+![Screenshot Error Message](readme/screenshots/screenshot-form1.png)
 
 ***Confirmation Page is a simulated page to show the reservation has been received. This page is a duplicate of the reservation page but the input fields and buttons have been disabled. An additional link is available to the user for returning to the tours section.***
 
 *Screenshot - Confirmation Message display when form is successfully submitted*
 
-![Screenshoot Confirmation Message](readme/screenshots/screenshot-confirmation.png)
+![Screenshot Confirmation Message](readme/screenshots/screenshot-confirmation.png)
 
 #### Responsive
 User can access to site via different devices.
@@ -320,7 +324,7 @@ The site is designed to response and give the best display on different screen w
 
 *Screenshot - Reservation Form Adjusted on Mobile Devices*
 
-![Screenshoot Reservation Page](readme/screenshots/screenshot-reservationpage2.png)
+![Screenshot Reservation Page](readme/screenshots/screenshot-reservationpage2.png)
 
 ### Customised Error 404 Page
 User will see a customised page for Error 404 when a page is not found and allow to return back to the home page.
@@ -330,6 +334,8 @@ The customised page enables the user to report the error and offer a link to red
 *Screenshot - Error 404 Page not Found*
 
 ![Screenshot on Error 404 Page](readme/screenshots/screenshot-404.png)
+
+___
 
 ## Future Features
 The following features need to be added in the future to create a fully functional website. The main attention is to simplify the processes for returning customers and the maintenance of the site.
@@ -356,6 +362,8 @@ The following features need to be added in the future to create a fully function
     * Confirmation email to user when reservation successfully processed
     * Payment and tour confirmation will be sent out after the reservation has been carried out successfully
 
+___
+
 ## Functional Testing
 During the development phase, each feature was tested and ensured that the fundamental functions have achieved before going on to develop the next feature.
 
@@ -381,6 +389,8 @@ The following report shows the final tests result that have been carried out.
 ![Test Report Page 7](readme/test-reports/test-report-page7.png)
 ![Test Report Page 8](readme/test-reports/test-report-page8.png)
 ![Test Report Page 9](readme/test-reports/test-report-page9.png)
+
+___
 
 ## Validator Testing
 Validator testing is used to validate codes that are legally written and to identify any possible errors. This can be done by using online automated testing tools to scan through the codes.
@@ -419,6 +429,8 @@ The following reports show all HTML pages and CSS code have passed the test.
 
 ![HTML Validation on Stylesheet](readme/test-reports/validation-css.png)
 
+___
+
 ## Performance and Accessibility Testing
 Lighthouse is a tool in Chrome Development Tools that allows developer to test their website. Performance and Accessibility are two of the tests carried out by Lighthouse and it can identify where you can improve the performance and accessibility.
 
@@ -444,10 +456,14 @@ From the lighthouse reports at below, it shows the site perform well. The site w
 
 ![Performance Report Confirmation Page](readme/test-reports/performance-report-confirmation.png)
 
+___
+
 ## Unfixed Bugs
 Currently, the reservation page is not fully developed. There is no backend to support the site and the submission of the form is only simulated by returning a Reservation Received message.
 
 The validation and implementation to the backend is out of this project scope but it can be developed in future to become a fully operational website.
+
+___
 
 ## Deployment
 ### Tools
@@ -489,6 +505,7 @@ The live site for this project is published under [https://kkwong44.github.io/ca
 
 Click [here](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop) for more information on Cloning and forking repositories from GitHub Desktop.
 
+___
 
 ## Credits
 ### Content
@@ -527,6 +544,8 @@ The images used in this website are from the following:
 * The image logo has been edited and from [Pixabay.com](https://pixabay.com/)
 * The photo images are taken by myself and copyright free
 
+___
+
 ## Tools
 The tools used to carry out the development on this project are:
 
@@ -538,6 +557,8 @@ The tools used to carry out the development on this project are:
 * W3C validators
 * Webpage Screenshots - Chrome app extension (FireShot)
 * WAVE Web Accessibility Evaluation Tool - [https://wave.webaim.org/](https://wave.webaim.org/)
+
+___
 
 ## Acknowledgment
 I would like to thank the following to support the development of this website.
