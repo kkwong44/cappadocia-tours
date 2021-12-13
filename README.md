@@ -390,6 +390,14 @@ The following report shows the final tests result that have been carried out.
 ![Test Report Page 8](readme/test-reports/test-report-page8.png)
 ![Test Report Page 9](readme/test-reports/test-report-page9.png)
 
+**Screenshots - Pages fit smallest device at 320x568 on Dev Tool**
+
+![Screenshot on device at 320x568](readme/screenshots/screenshot-320-home.png)
+
+![Screenshot on device at 320x568](readme/screenshots/screenshot-320-gallery.png)
+
+![Screenshot on device at 320x568](readme/screenshots/screenshot-320-reservation.png)
+
 ___
 
 ## Validator Testing
